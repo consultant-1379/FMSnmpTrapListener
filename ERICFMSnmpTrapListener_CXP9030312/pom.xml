@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<artifactId>FMSnmpTrapListener</artifactId>
+		<groupId>com.ericsson.nms.services</groupId>
+		<version>1.0.81-SNAPSHOT</version>
+	</parent>
+	<artifactId>ERICFMSnmpTrapListener_CXP9030312</artifactId>
+	<name>[${project.parent.artifactId}] RPM module</name>
+	<packaging>${rpm.packaging}</packaging>
+	
+	<properties>
+		<com.ericsson.oss.rpm.architecture>noarch</com.ericsson.oss.rpm.architecture>
+	<!-- Install path = /${rpm-root}/${comp-name}/${install-path} -->
+		<rpm-root>opt</rpm-root>
+		<comp-name>ericsson</comp-name>
+		<install-path>${project.groupId}.FMSnmpTrapListener</install-path>
+        <publish_artifact>true</publish_artifact>
+	</properties>
+	
+	<dependencies>
+		 <dependency>
+			<groupId>${project.groupId}</groupId>
+			<artifactId>${project.parent.artifactId}-ear</artifactId>
+			<version>${project.version}</version>
+			<type>ear</type>
+		</dependency>  
+	</dependencies>
+	
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.jboss.as.plugins</groupId>
+				<artifactId>jboss-as-maven-plugin</artifactId>
+				<version>${version.jboss-as-maven-plugin}</version>
+				<configuration>
+					<skip>true</skip>
+				</configuration>
+			</plugin>
+
+			<plugin>
+				<groupId>org.codehaus.mojo</groupId>
+				<artifactId>rpm-maven-plugin</artifactId>
+				<extensions>true</extensions>
+				<configuration>
+					<skip>true</skip>
+					<inherited>true</inherited>
+					<copyright>2013 Ericsson AB All rights reserved</copyright>
+					<summary>${stripped.artifactId}</summary>
+					<packager>${ericsson.rstate}</packager>
+					<group>ERI-NMS</group>
+					<requires>
+						<require>python &gt;= 2.6</require>
+					</requires>
+					<vendor>Ericsson AB</vendor>
+					<url>www.ericsson.com</url>
+
+					<mappings>
+
+						<mapping>
+							<directory>/${rpm-root}/${comp-name}</directory>
+							<filemode>775</filemode>
+							<username>root</username>
+							<groupname>root</groupname>
+						</mapping>
+						<mapping>
+							<directory>/${rpm-root}/${comp-name}/${install-path}</directory>
+							<filemode>775</filemode>
+							<username>root</username>
+							<groupname>root</groupname>
+							<configuration>false</configuration>
+							<directoryIncluded>true</directoryIncluded>
+							<recurseDirectories>true</recurseDirectories>
+
+							<sources>
+								<source>
+									<location>src/main/python</location>
+									<excludes>
+										<exclude>**/*.pyc</exclude>
+										<exclude>**/*.gitignore</exclude>
+									</excludes>
+								</source>
+								<source>
+									<location>src/main/resources/</location>
+									<excludes>
+										<exclude>**/*.pyc</exclude>
+										<exclude>**/version.txt</exclude>
+										<exclude>**/*.gitignore</exclude>
+										<exclude>**/ETF.xml</exclude>
+										<exclude>**/*.sql</exclude>
+									</excludes>
+								</source>
+								<source>
+									<location>src/main/scripts/</location>
+									<excludes>
+										<exclude>**/*.pyc</exclude>
+										<exclude>**/postinstall.sh</exclude>
+										<exclude>**/preremove.sh</exclude>
+										<exclude>**/postremove.sh</exclude>
+										<exclude>**/*.gitignore</exclude>
+									</excludes>
+								</source>
+							</sources>
+						</mapping>
+
+						<mapping>
+							<directory>/opt/ericsson/snmpXml</directory>
+							<filemode>775</filemode>
+							<username>root</username>
+							<groupname>root</groupname>
+							<configuration>false</configuration>
+							<directoryIncluded>true</directoryIncluded>
+							<recurseDirectories>true</recurseDirectories>
+
+							<sources>
+								<source>
+									<location>src/main/snmpXml</location>
+									<excludes>
+										<exclude>**/*.gitignore</exclude>
+										<exclude>**/*.ear</exclude>
+										<exclude>**/*.war</exclude>
+										<exclude>**/*.jar</exclude>
+										<exclude>**/*.rar</exclude>
+									</excludes>
+								</source>
+							</sources>
+						</mapping>
+
+					</mappings>
+
+				</configuration>
+			</plugin>
+
+		</plugins>
+	</build>
+
+
+
+
+
+</project>

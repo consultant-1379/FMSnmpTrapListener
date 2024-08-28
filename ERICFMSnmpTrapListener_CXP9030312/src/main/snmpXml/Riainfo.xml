@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<config>
+<SourceTypeAS SourceType="IPMS">
+				<ComSupervisionOidAS ComSupervisionOID=".1.3.6.1.2.1.1.1.0" ComSupervisionType="pull" >
+				</ComSupervisionOidAS>
+</SourceTypeAS>
+<SourceTypeAS SourceType="PSCORE">
+				<ComSupervisionOidAS ComSupervisionOID=" .1.3.6.1.2.1.1.1.0" ComSupervisionType="pull" >
+				</ComSupervisionOidAS>
+</SourceTypeAS>
+<SourceTypeAS SourceType="SASN">
+				<ComSupervisionOidAS ComSupervisionOID=".1.3.6.1.2.1.1.1.0" ComSupervisionType="pull">
+				</ComSupervisionOidAS>
+</SourceTypeAS>
+<SourceTypeAS SourceType="SSR">
+				<ComSupervisionOidAS ComSupervisionOID=".1.3.6.1.2.1.1.1.0" ComSupervisionType="pull" >
+				</ComSupervisionOidAS>
+</SourceTypeAS>
+<SourceTypeAS SourceType="JUNIPER">
+				<ComSupervisionOidAS ComSupervisionOID=".1.3.6.1.2.1.1.1.0" ComSupervisionType="pull">
+				</ComSupervisionOidAS>
+</SourceTypeAS>
+<SourceTypeAS SourceType="RADIUS">
+				<ComSupervisionOidAS ComSupervisionOID=".1.3.6.1.2.1.1.1.0" ComSupervisionType="pull">
+				</ComSupervisionOidAS>
+</SourceTypeAS>
+<SourceTypeAS SourceType="REDBACK">
+				<ComSupervisionOidAS ComSupervisionOID=".1.3.6.1.2.1.1.1.0" ComSupervisionType="pull">
+				</ComSupervisionOidAS>
+</SourceTypeAS>
+<SourceTypeAS SourceType="ACME">
+				<ComSupervisionOidAS ComSupervisionOID=".1.3.6.1.2.1.1.3.0" ComSupervisionType="pull">
+				</ComSupervisionOidAS>
+</SourceTypeAS>
+<SourceTypeAS SourceType="HOTSIP">
+				<ComSupervisionOidAS ComSupervisionOID=".1.3.6.1.6.3.10.2.1.3.0" ComSupervisionType="pull">
+				</ComSupervisionOidAS>
+</SourceTypeAS>
+<SourceTypeAS SourceType="SRD">
+				<ComSupervisionOidAS ComSupervisionOID=".1.3.6.1.2.1.1.1.0" ComSupervisionType="pull">
+				</ComSupervisionOidAS>
+</SourceTypeAS>
+<SourceTypeAS SourceType="DMX">
+				<ComSupervisionOidAS ComSupervisionOID=".1.3.6.1.4.1.193.99991.2.0.20" ComSupervisionType="push">
+				</ComSupervisionOidAS>
+</SourceTypeAS>
+<SourceTypeAS SourceType="MIB2">
+				<ComSupervisionOidAS ComSupervisionOID=".1.3.6.1.2.1.1.1.0" ComSupervisionType="pull">
+				</ComSupervisionOidAS>
+</SourceTypeAS>
+<SourceTypeAS SourceType="EFWS">
+				<ComSupervisionOidAS ComSupervisionOID=".1.3.6.1.6.3.10.2.1.3.0" ComSupervisionType="pull">
+				</ComSupervisionOidAS>
+</SourceTypeAS>
+<SourceTypeAS SourceType="BROADWORKS">
+				<ComSupervisionOidAS ComSupervisionOID=".1.3.6.1.2.1.1.1.0" ComSupervisionType="pull">
+				</ComSupervisionOidAS>
+</SourceTypeAS>
+<SourceTypeAS SourceType="EXTREME">
+				<ComSupervisionOidAS ComSupervisionOID=".1.3.6.1.2.1.1.1.0" ComSupervisionType="pull">
+        </ComSupervisionOidAS>
+</SourceTypeAS>
+<SourceTypeAS SourceType="IP-MUX">
+				<ComSupervisionOidAS ComSupervisionOID=".1.3.6.1.4.1.193.82.1.1.0" ComSupervisionType="pull">
+				</ComSupervisionOidAS>
+</SourceTypeAS>
+<SourceTypeAS SourceType="NETSCREEN">
+				<ComSupervisionOidAS ComSupervisionOID=".1.3.6.1.2.1.1.1.0" ComSupervisionType="pull">
+				</ComSupervisionOidAS>
+</SourceTypeAS>
+<SourceTypeAS SourceType="ISBLADE">
+				<ComSupervisionOidAS ComSupervisionOID=".1.3.6.1.4.1.193.129.1.2.2.4.1.0" ComSupervisionType="pull">
+				</ComSupervisionOidAS>
+</SourceTypeAS>
+<SourceTypeAS SourceType="MPS">
+				<ComSupervisionOidAS ComSupervisionOID=".1.3.6.1.2.1.1.1.0" ComSupervisionType="pull">
+				</ComSupervisionOidAS>
+</SourceTypeAS>
+<SourceTypeAS SourceType="CAS">
+				<ComSupervisionOidAS ComSupervisionOID=".1.3.6.1.4.1.2994.5.1" ComSupervisionType="pull">
+        </ComSupervisionOidAS>
+</SourceTypeAS>
+<SourceTypeAS SourceType="AXD">
+				<ComSupervisionOidAS ComSupervisionOID=".1.3.6.1.2.1.1.1.0" ComSupervisionType="pull">
+        </ComSupervisionOidAS>
+</SourceTypeAS>
+<SourceTypeAS SourceType="JAMBALA">
+				<ComSupervisionOidAS ComSupervisionOID=".1.3.6.1.2.1.1.1.0" ComSupervisionType="pull">
+        </ComSupervisionOidAS>
+</SourceTypeAS>
+<SourceTypeAS SourceType="MLTN">
+				<ComSupervisionOidAS ComSupervisionOID=".1.3.6.1.2.1.1.1.0" ComSupervisionType="pull">
+        </ComSupervisionOidAS>
+</SourceTypeAS>
+<SourceTypeAS SourceType="CLAVISTER">
+				<ComSupervisionOidAS ComSupervisionOID=".1.3.6.1.2.1.1.1.0" ComSupervisionType="pull">
+        </ComSupervisionOidAS>
+</SourceTypeAS>
+<SourceTypeAS SourceType="OMP">
+				<ComSupervisionOidAS ComSupervisionOID=".1.3.6.1.4.1.193.99991.2.0.20" ComSupervisionType="push">
+        </ComSupervisionOidAS>
+</SourceTypeAS>
+<SourceTypeAS SourceType="MGC">
+				<ComSupervisionOidAS ComSupervisionOID=".1.3.6.1.4.1.193.119.2.3.1.1.2.0" ComSupervisionType="pull">
+        </ComSupervisionOidAS>
+</SourceTypeAS>
+<SourceTypeAS SourceType="WPP">
+				<ComSupervisionOidAS ComSupervisionOID=".1.3.6.1.2.1.1.1.0" ComSupervisionType="pull">
+        </ComSupervisionOidAS>
+</SourceTypeAS>
+<SourceTypeAS SourceType="NETRA">
+				<ComSupervisionOidAS ComSupervisionOID=".1.3.6.1.2.1.1.1.0" ComSupervisionType="pull">
+        </ComSupervisionOidAS>
+</SourceTypeAS>
+<SourceTypeAS SourceType="TRUETIME">
+				<ComSupervisionOidAS ComSupervisionOID=".1.3.6.1.2.1.1.1.0" ComSupervisionType="pull">
+        </ComSupervisionOidAS>
+</SourceTypeAS>
+<SourceTypeAS SourceType="IS">
+				<ComSupervisionOidAS ComSupervisionOID=".1.3.6.1.4.1.193.129.1.2.2.3.2.0" ComSupervisionType="pull">
+        </ComSupervisionOidAS>
+</SourceTypeAS>
+<SourceTypeAS SourceType="ISBLADE">
+				<ComSupervisionOidAS ComSupervisionOID=".1.3.6.1.4.1.193.129.1.2.2.4.1.0" ComSupervisionType="pull">
+        </ComSupervisionOidAS>
+</SourceTypeAS>
+<SourceTypeAS SourceType="IVR">
+				<ComSupervisionOidAS ComSupervisionOID=".1.3.6.1.2.1.1.1.0" ComSupervisionType="pull">
+        </ComSupervisionOidAS>
+</SourceTypeAS>
+<SourceTypeAS SourceType="OCMP">
+				<ComSupervisionOidAS ComSupervisionOID=".1.3.6.1.2.1.1.1.0" ComSupervisionType="pull">
+        </ComSupervisionOidAS>
+</SourceTypeAS>
+<SourceTypeAS SourceType="VIVR">
+				<ComSupervisionOidAS ComSupervisionOID=".1.3.6.1.2.1.1.1.0" ComSupervisionType="pull">
+        </ComSupervisionOidAS>
+</SourceTypeAS>
+<SourceTypeAS SourceType="SAN">
+				<ComSupervisionOidAS ComSupervisionOID=".1.3.6.1.4.1.193.144.2.4" ComSupervisionType="push">
+        </ComSupervisionOidAS>
+</SourceTypeAS>
+<SourceTypeAS SourceType="SPNOVA">
+				<ComSupervisionOidAS ComSupervisionOID=".1.3.6.1.4.1.6785.7.9.1.0" ComSupervisionType="pull">
+        </ComSupervisionOidAS>
+</SourceTypeAS>
+<SourceTypeAS SourceType="STN">
+				<ComSupervisionOidAS ComSupervisionOID=".1.3.6.1.4.1.193.144.2.4,.1.3.6.1.4.1.193.144.5.8" ComSupervisionType="push">
+        </ComSupervisionOidAS>
+</SourceTypeAS>
+<SourceTypeAS SourceType="RTS">
+				<ComSupervisionOidAS ComSupervisionOID=".1.3.6.1.2.1.1.1.0" ComSupervisionType="pull">
+				</ComSupervisionOidAS>
+</SourceTypeAS>
+<SourceTypeAS SourceType="SPP">
+				<ComSupervisionOidAS ComSupervisionOID=".1.3.6.1.4.1.193.82.1.1.0" ComSupervisionType="pull">
+				</ComSupervisionOidAS>
+</SourceTypeAS>
+<SourceTypeAS SourceType="HP-MRFP">
+				<ComSupervisionOidAS ComSupervisionOID=".1.3.6.1.2.1.1.1.0" ComSupervisionType="pull">
+				</ComSupervisionOidAS>
+</SourceTypeAS>
+<SourceTypeAS SourceType="SDN">
+				<ComSupervisionOidAS ComSupervisionOID=".1.3.6.1.4.1.193.144.2.4" ComSupervisionType="push">
+				</ComSupervisionOidAS>
+</SourceTypeAS>
+<SourceTypeAS SourceType="IPMM">
+				<ComSupervisionOidAS ComSupervisionOID=".1.3.6.1.4.1.3881.2.1.1" ComSupervisionType="pull">
+				</ComSupervisionOidAS>
+</SourceTypeAS>
+<SourceTypeAS SourceType="IMS">
+				<ComSupervisionOidAS ComSupervisionOID=".1.3.6.1.2.1.1.1.0" ComSupervisionType="pull">
+				</ComSupervisionOidAS>
+</SourceTypeAS>
+<SourceTypeAS SourceType="IMS-M">
+				<ComSupervisionOidAS ComSupervisionOID=".1.3.6.1.2.1.1.1.0" ComSupervisionType="pull">
+				</ComSupervisionOidAS>
+</SourceTypeAS>
+<SourceTypeAS SourceType="ESA">
+				<ComSupervisionOidAS ComSupervisionOID=".1.3.6.1.4.1.193.110.2.666.1.1.1.0" ComSupervisionType="pull">
+				</ComSupervisionOidAS>
+</SourceTypeAS>
+</config>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <artifactId>FMSnmpTrapListener-testsuite</artifactId>
+    <groupId>com.ericsson.nms.services</groupId>
+    <version>1.0.43-SNAPSHOT</version>
+    <relativePath>../pom.xml</relativePath>
+  </parent>
+  <artifactId>FMSnmpTrapListener-testsuite-stress</artifactId>
+  <name>[${project.parent.artifactId}] TestSuite Stress</name>
+  
+	<properties>
+		<maven.test.skip>true</maven.test.skip>
+	</properties>
+	<profiles>
+	
+		<profile>
+			<id>skip_jee</id>
+			<activation>
+				<property><name>ts.skip.integration.jee</name></property>
+			</activation>
+			<properties>
+				<maven.test.skip>true</maven.test.skip>
+			</properties>
+		</profile>
+	</profiles>
+</project>

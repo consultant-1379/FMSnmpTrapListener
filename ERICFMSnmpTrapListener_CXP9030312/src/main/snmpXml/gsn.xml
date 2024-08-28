@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE CommonAAUModel SYSTEM "/opt/ericsson/snmpXml/CommonAAU.dtd">
+<CommonAAUModel>
+	
+	<AlarmSupervision>
+	<SourceTypeAS SourceType="WPP">
+      <!-- IF-MIB -->
+			<AlarmTrapOidAS OID=".1.3.6.1.6.3.1.1.5.3">
+				<AttributeOid OID=".1.3.6.1.2.1.2.2.1.1" AttributeName="ifIndex"/>
+				<AttributeOid OID=".1.3.6.1.2.1.2.2.1.7" AttributeName="ifAdminStatus"/>
+				<AttributeOid OID=".1.3.6.1.2.1.2.2.1.2" AttributeName="ifDescr"/>
+				<AttributeOid OID=".1.3.6.1.2.1.31.1.1.1.1" AttributeName="ifname"/>
+				<AttributeOid OID="..1.3.6.1.2.1.2.2.1.8" AttributeName="ifOperStatus"/>
+			</AlarmTrapOidAS>
+			<AlarmTrapOidAS OID=".1.3.6.1.6.3.1.1.5.4">
+				<AttributeOid OID=".1.3.6.1.2.1.2.2.1.1" AttributeName="ifIndex"/>
+				<AttributeOid OID=".1.3.6.1.2.1.2.2.1.7" AttributeName="ifAdminStatus"/>
+				<AttributeOid OID=".1.3.6.1.2.1.2.2.1.8" AttributeName="ifOperStatus"/>
+				<AttributeOid OID=".1.3.6.1.2.1.2.2.1.2" AttributeName="ifDescr"/>
+				<AttributeOid OID=".1.3.6.1.2.1.31.1.1.1.1" AttributeName="ifname"/>
+			</AlarmTrapOidAS>
+
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.82.2.0.1">
+				<AttributeOid OID=".1.3.6.1.4.1.193.82.1.8.1.1" AttributeName="alarmId"/>
+				<AttributeOid OID=".1.3.6.1.4.1.193.82.1.8.1.2" AttributeName="Equipment"/>
+				<AttributeOid OID=".1.3.6.1.4.1.193.82.1.8.1.4" AttributeName="AlarmTime"/>
+				<AttributeOid OID=".1.3.6.1.4.1.193.82.1.8.1.5" AttributeName="EventType"/>
+				<AttributeOid OID=".1.3.6.1.4.1.193.82.1.8.1.6" AttributeName="ProbableCause"/>
+				<AttributeOid OID=".1.3.6.1.4.1.193.82.1.8.1.13" AttributeName="AddtionalText"/>
+				<AttributeOid OID=".1.3.6.1.4.1.193.82.1.8.1.8" AttributeName="SpecificProblem"/>
+				<AttributeOid OID=".1.3.6.1.4.1.193.82.1.8.1.7" AttributeName="PerceivedSeverity"/>
+				
+				<AttributeOid OID=".1.3.6.1.4.1.193.83.1.1.1.1" AttributeName="alarmId"/>
+				<AttributeOid OID=".1.3.6.1.4.1.193.83.1.1.1.2" AttributeName="Equipment"/>
+				<AttributeOid OID=".1.3.6.1.4.1.193.83.1.1.1.3" AttributeName="AlarmTime"/>
+				<AttributeOid OID=".1.3.6.1.4.1.193.83.1.1.1.4" AttributeName="EventType"/>
+				<AttributeOid OID=".1.3.6.1.4.1.193.83.1.1.1.5" AttributeName="PerceivedSeverity"/>
+				<AttributeOid OID=".1.3.6.1.4.1.193.83.1.1.1.6" AttributeName="AddtionalText"/>
+				<AttributeOid OID=".1.3.6.1.4.1.193.83.1.1.1.7" AttributeName="SpecificProblem"/>
+				
+			</AlarmTrapOidAS>
+			    <AlarmTrapOidAS OID=".1.3.6.1.4.1.193.82.2.0.2">
+				<AttributeOid OID=".1.3.6.1.4.1.193.82.1.8.1.1" AttributeName="alarmId"/>
+				<AttributeOid OID=".1.3.6.1.4.1.193.82.1.8.1.2" AttributeName="Equipment"/>
+				<AttributeOid OID=".1.3.6.1.4.1.193.82.1.8.1.4" AttributeName="AlarmTime"/>
+				<AttributeOid OID=".1.3.6.1.4.1.193.82.1.8.1.5" AttributeName="EventType"/>
+				<AttributeOid OID=".1.3.6.1.4.1.193.82.1.8.1.6" AttributeName="ProbableCause"/>
+				<AttributeOid OID=".1.3.6.1.4.1.193.82.1.8.1.13" AttributeName="AddtionalText"/>
+				<AttributeOid OID=".1.3.6.1.4.1.193.82.1.8.1.8" AttributeName="SpecificProblem"/>
+				<AttributeOid OID=".1.3.6.1.4.1.193.82.1.8.1.7" AttributeName="PerceivedSeverity"/>
+				
+				<AttributeOid OID=".1.3.6.1.4.1.193.83.1.1.1.1" AttributeName="alarmId"/>
+				<AttributeOid OID=".1.3.6.1.4.1.193.83.1.1.1.2" AttributeName="Equipment"/>
+				<AttributeOid OID=".1.3.6.1.4.1.193.83.1.1.1.3" AttributeName="AlarmTime"/>
+				<AttributeOid OID=".1.3.6.1.4.1.193.83.1.1.1.4" AttributeName="EventType"/>
+				<AttributeOid OID=".1.3.6.1.4.1.193.83.1.1.1.5" AttributeName="PerceivedSeverity"/>
+				<AttributeOid OID=".1.3.6.1.4.1.193.83.1.1.1.6" AttributeName="AddtionalText"/>
+				<AttributeOid OID=".1.3.6.1.4.1.193.83.1.1.1.7" AttributeName="SpecificProblem"/>
+			</AlarmTrapOidAS>
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.82.2.0.3">
+				<AttributeOid OID=".1.3.6.1.4.1.193.82.1.8.1.1" AttributeName="alarmId"/>
+				<AttributeOid OID=".1.3.6.1.4.1.193.82.1.8.1.2" AttributeName="Equipment"/>
+				<AttributeOid OID=".1.3.6.1.4.1.193.82.1.8.1.4" AttributeName="AlarmTime"/>
+				<AttributeOid OID=".1.3.6.1.4.1.193.82.1.8.1.5" AttributeName="EventType"/>
+				<AttributeOid OID=".1.3.6.1.4.1.193.82.1.8.1.6" AttributeName="ProbableCause"/>
+				<AttributeOid OID=".1.3.6.1.4.1.193.82.1.8.1.13" AttributeName="AddtionalText"/>
+				<AttributeOid OID=".1.3.6.1.4.1.193.82.1.8.1.8" AttributeName="SpecificProblem"/>
+				<AttributeOid OID=".1.3.6.1.4.1.193.82.1.8.1.7" AttributeName="PerceivedSeverity"/>
+				
+				<AttributeOid OID=".1.3.6.1.4.1.193.83.1.1.1.1" AttributeName="alarmId"/>
+				<AttributeOid OID=".1.3.6.1.4.1.193.83.1.1.1.2" AttributeName="Equipment"/>
+				<AttributeOid OID=".1.3.6.1.4.1.193.83.1.1.1.3" AttributeName="AlarmTime"/>
+				<AttributeOid OID=".1.3.6.1.4.1.193.83.1.1.1.4" AttributeName="EventType"/>
+				<AttributeOid OID=".1.3.6.1.4.1.193.83.1.1.1.5" AttributeName="PerceivedSeverity"/>
+				<AttributeOid OID=".1.3.6.1.4.1.193.83.1.1.1.6" AttributeName="AddtionalText"/>
+				<AttributeOid OID=".1.3.6.1.4.1.193.83.1.1.1.7" AttributeName="SpecificProblem"/>
+			</AlarmTrapOidAS>
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.82.2.0.4">
+				<AttributeOid OID=".1.3.6.1.4.1.193.82.1.8.1.1" AttributeName="alarmId"/>
+				<AttributeOid OID=".1.3.6.1.4.1.193.82.1.8.1.2" AttributeName="Equipment"/>
+				<AttributeOid OID=".1.3.6.1.4.1.193.82.1.8.1.4" AttributeName="AlarmTime"/>
+				<AttributeOid OID=".1.3.6.1.4.1.193.82.1.8.1.5" AttributeName="EventType"/>
+				<AttributeOid OID=".1.3.6.1.4.1.193.82.1.8.1.6" AttributeName="ProbableCause"/>
+				<AttributeOid OID=".1.3.6.1.4.1.193.82.1.8.1.13" AttributeName="AddtionalText"/>
+				<AttributeOid OID=".1.3.6.1.4.1.193.82.1.8.1.8" AttributeName="SpecificProblem"/>
+				<AttributeOid OID=".1.3.6.1.4.1.193.82.1.8.1.7" AttributeName="PerceivedSeverity"/>
+				
+				<AttributeOid OID=".1.3.6.1.4.1.193.83.1.1.1.1" AttributeName="alarmId"/>
+				<AttributeOid OID=".1.3.6.1.4.1.193.83.1.1.1.2" AttributeName="Equipment"/>
+				<AttributeOid OID=".1.3.6.1.4.1.193.83.1.1.1.3" AttributeName="AlarmTime"/>
+				<AttributeOid OID=".1.3.6.1.4.1.193.83.1.1.1.4" AttributeName="EventType"/>
+				<AttributeOid OID=".1.3.6.1.4.1.193.83.1.1.1.5" AttributeName="PerceivedSeverity"/>
+				<AttributeOid OID=".1.3.6.1.4.1.193.83.1.1.1.6" AttributeName="AddtionalText"/>
+				<AttributeOid OID=".1.3.6.1.4.1.193.83.1.1.1.7" AttributeName="SpecificProblem"/>
+			</AlarmTrapOidAS>
+	
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.83.2.0.1">
+				<AttributeOid OID=".1.3.6.1.4.1.193.82.1.8.1.1" AttributeName="alarmId"/>
+				<AttributeOid OID=".1.3.6.1.4.1.193.82.1.8.1.2" AttributeName="Equipment"/>
+				<AttributeOid OID=".1.3.6.1.4.1.193.82.1.8.1.4" AttributeName="AlarmTime"/>
+				<AttributeOid OID=".1.3.6.1.4.1.193.82.1.8.1.5" AttributeName="EventType"/>
+				<AttributeOid OID=".1.3.6.1.4.1.193.82.1.8.1.6" AttributeName="ProbableCause"/>
+				<AttributeOid OID=".1.3.6.1.4.1.193.82.1.8.1.13" AttributeName="AddtionalText"/>
+				<AttributeOid OID=".1.3.6.1.4.1.193.82.1.8.1.8" AttributeName="SpecificProblem"/>
+				<AttributeOid OID=".1.3.6.1.4.1.193.82.1.8.1.7" AttributeName="PerceivedSeverity"/>
+				
+				<AttributeOid OID=".1.3.6.1.4.1.193.83.1.1.1.1" AttributeName="alarmId"/>
+				<AttributeOid OID=".1.3.6.1.4.1.193.83.1.1.1.2" AttributeName="Equipment"/>
+				<AttributeOid OID=".1.3.6.1.4.1.193.83.1.1.1.3" AttributeName="AlarmTime"/>
+				<AttributeOid OID=".1.3.6.1.4.1.193.83.1.1.1.4" AttributeName="EventType"/>
+				<AttributeOid OID=".1.3.6.1.4.1.193.83.1.1.1.5" AttributeName="PerceivedSeverity"/>
+				<AttributeOid OID=".1.3.6.1.4.1.193.83.1.1.1.6" AttributeName="AddtionalText"/>
+				<AttributeOid OID=".1.3.6.1.4.1.193.83.1.1.1.7" AttributeName="SpecificProblem"/>
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.83.2.0.2">
+				<AttributeOid OID=".1.3.6.1.4.1.193.82.1.8.1.1" AttributeName="alarmId"/>
+				<AttributeOid OID=".1.3.6.1.4.1.193.82.1.8.1.2" AttributeName="Equipment"/>
+				<AttributeOid OID=".1.3.6.1.4.1.193.82.1.8.1.4" AttributeName="AlarmTime"/>
+				<AttributeOid OID=".1.3.6.1.4.1.193.82.1.8.1.5" AttributeName="EventType"/>
+				<AttributeOid OID=".1.3.6.1.4.1.193.82.1.8.1.6" AttributeName="ProbableCause"/>
+				<AttributeOid OID=".1.3.6.1.4.1.193.82.1.8.1.13" AttributeName="AddtionalText"/>
+				<AttributeOid OID=".1.3.6.1.4.1.193.82.1.8.1.8" AttributeName="SpecificProblem"/>
+				<AttributeOid OID=".1.3.6.1.4.1.193.82.1.8.1.7" AttributeName="PerceivedSeverity"/>
+				
+				<AttributeOid OID=".1.3.6.1.4.1.193.83.1.1.1.1" AttributeName="alarmId"/>
+				<AttributeOid OID=".1.3.6.1.4.1.193.83.1.1.1.2" AttributeName="Equipment"/>
+				<AttributeOid OID=".1.3.6.1.4.1.193.83.1.1.1.3" AttributeName="AlarmTime"/>
+				<AttributeOid OID=".1.3.6.1.4.1.193.83.1.1.1.4" AttributeName="EventType"/>
+				<AttributeOid OID=".1.3.6.1.4.1.193.83.1.1.1.5" AttributeName="PerceivedSeverity"/>
+				<AttributeOid OID=".1.3.6.1.4.1.193.83.1.1.1.6" AttributeName="AddtionalText"/>
+				<AttributeOid OID=".1.3.6.1.4.1.193.83.1.1.1.7" AttributeName="SpecificProblem"/>
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.83.2.0.3">
+				<AttributeOid OID=".1.3.6.1.4.1.193.82.1.8.1.1" AttributeName="alarmId"/>
+				<AttributeOid OID=".1.3.6.1.4.1.193.82.1.8.1.2" AttributeName="Equipment"/>
+				<AttributeOid OID=".1.3.6.1.4.1.193.82.1.8.1.4" AttributeName="AlarmTime"/>
+				<AttributeOid OID=".1.3.6.1.4.1.193.82.1.8.1.5" AttributeName="EventType"/>
+				<AttributeOid OID=".1.3.6.1.4.1.193.82.1.8.1.6" AttributeName="ProbableCause"/>
+				<AttributeOid OID=".1.3.6.1.4.1.193.82.1.8.1.13" AttributeName="AddtionalText"/>
+				<AttributeOid OID=".1.3.6.1.4.1.193.82.1.8.1.8" AttributeName="SpecificProblem"/>
+				<AttributeOid OID=".1.3.6.1.4.1.193.82.1.8.1.7" AttributeName="PerceivedSeverity"/>
+				
+				<AttributeOid OID=".1.3.6.1.4.1.193.83.1.1.1.1" AttributeName="alarmId"/>
+				<AttributeOid OID=".1.3.6.1.4.1.193.83.1.1.1.2" AttributeName="Equipment"/>
+				<AttributeOid OID=".1.3.6.1.4.1.193.83.1.1.1.3" AttributeName="AlarmTime"/>
+				<AttributeOid OID=".1.3.6.1.4.1.193.83.1.1.1.4" AttributeName="EventType"/>
+				<AttributeOid OID=".1.3.6.1.4.1.193.83.1.1.1.5" AttributeName="PerceivedSeverity"/>
+				<AttributeOid OID=".1.3.6.1.4.1.193.83.1.1.1.6" AttributeName="AddtionalText"/>
+				<AttributeOid OID=".1.3.6.1.4.1.193.83.1.1.1.7" AttributeName="SpecificProblem"/>
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.83.2.0.4">
+				<AttributeOid OID=".1.3.6.1.4.1.193.82.1.8.1.1" AttributeName="alarmId"/>
+				<AttributeOid OID=".1.3.6.1.4.1.193.82.1.8.1.2" AttributeName="Equipment"/>
+				<AttributeOid OID=".1.3.6.1.4.1.193.82.1.8.1.4" AttributeName="AlarmTime"/>
+				<AttributeOid OID=".1.3.6.1.4.1.193.82.1.8.1.5" AttributeName="EventType"/>
+				<AttributeOid OID=".1.3.6.1.4.1.193.82.1.8.1.6" AttributeName="ProbableCause"/>
+				<AttributeOid OID=".1.3.6.1.4.1.193.82.1.8.1.13" AttributeName="AddtionalText"/>
+				<AttributeOid OID=".1.3.6.1.4.1.193.82.1.8.1.8" AttributeName="SpecificProblem"/>
+				<AttributeOid OID=".1.3.6.1.4.1.193.82.1.8.1.7" AttributeName="PerceivedSeverity"/>
+				
+				<AttributeOid OID=".1.3.6.1.4.1.193.83.1.1.1.1" AttributeName="alarmId"/>
+				<AttributeOid OID=".1.3.6.1.4.1.193.83.1.1.1.2" AttributeName="Equipment"/>
+				<AttributeOid OID=".1.3.6.1.4.1.193.83.1.1.1.3" AttributeName="AlarmTime"/>
+				<AttributeOid OID=".1.3.6.1.4.1.193.83.1.1.1.4" AttributeName="EventType"/>
+				<AttributeOid OID=".1.3.6.1.4.1.193.83.1.1.1.5" AttributeName="PerceivedSeverity"/>
+				<AttributeOid OID=".1.3.6.1.4.1.193.83.1.1.1.6" AttributeName="AddtionalText"/>
+				<AttributeOid OID=".1.3.6.1.4.1.193.83.1.1.1.7" AttributeName="SpecificProblem"/>
+			</AlarmTrapOidAS>
+ </SourceTypeAS>
+		</AlarmSupervision>
+	
+	<Synchronization>
+		<SourceTypeSync SourceType="WPP">
+		<MibTypeSync MibType="WPPMIB">		
+			<AttributeOid OID=".1.3.6.1.4.1.193.82.1.8.1.1" AttributeName="alarmId"/>
+			<AttributeOid OID=".1.3.6.1.4.1.193.82.1.8.1.2" AttributeName="Equipment"/>
+     		<AttributeOid OID=".1.3.6.1.4.1.193.82.1.8.1.4" AttributeName="AlarmTime"/>
+			<AttributeOid OID=".1.3.6.1.4.1.193.82.1.8.1.5" AttributeName="EventType"/>
+			<AttributeOid OID=".1.3.6.1.4.1.193.82.1.8.1.6" AttributeName="ProbableCause"/>
+			<AttributeOid OID=".1.3.6.1.4.1.193.82.1.8.1.7" AttributeName="PerceivedSeverity"/>
+     		<AttributeOid OID=".1.3.6.1.4.1.193.82.1.8.1.8" AttributeName="SpecificProblem"/>
+			<AttributeOid OID=".1.3.6.1.4.1.193.82.1.8.1.13" AttributeName="AddtionalText"/>
+			</MibTypeSync>
+			<MibTypeSync MibType="IFMIB">	
+			<AttributeOid OID=".1.3.6.1.2.1.2.2.1.1" AttributeName="ifIndex"/>
+				<AttributeOid OID=".1.3.6.1.2.1.2.2.1.7" AttributeName="ifAdminStatus"/>
+				<AttributeOid OID=".1.3.6.1.2.1.2.2.1.8" AttributeName="ifOperStatus"/>
+				<AttributeOid OID=".1.3.6.1.2.1.2.2.1.2" AttributeName="ifDescr"/>
+				<AttributeOid OID=".1.3.6.1.2.1.31.1.1.1.1" AttributeName="ifname"/>
+				</MibTypeSync>				
+		
+       </SourceTypeSync>      
+	</Synchronization>
+	
+	<FMAlarmTable>
+	<SourceTypeAT SourceType="WPP">
+		
+		
+		<AlarmTrapOidAT OID=".1.3.6.1.6.3.1.1.5.1">
+				<SpecificProblem AttributeName="SpecificProblem" Value="Cold restart"/>
+				<ProbableCause AttributeName="ProbableCause" Value="305"/>
+				<EventType AttributeName="EventType" Value="5"/>
+				<PerceivedSeverity AttributeName="PerceivedSeverity" Value="INDETERMINATE"/>
+				<NotificationType AttributeName="NotificationType" Value="ERROR"/>
+				<AdditionalAttribute AttributeName="additionalText" Value="A coldStart trap signifies that the sending protocol entity is reinitializing itself such that the agent's configuration or the protocol entity implementation may be altered."/>
+			</AlarmTrapOidAT>
+			<AlarmTrapOidAT OID=".1.3.6.1.6.3.1.1.5.2">
+				<SpecificProblem AttributeName="SpecificProblem" Value="Warm restart"/>
+				<ProbableCause AttributeName="ProbableCause" Value="305"/>
+				<EventType AttributeName="EventType" Value="5"/>
+				<PerceivedSeverity AttributeName="PerceivedSeverity" Value="INDETERMINATE"/>
+				<NotificationType AttributeName="NotificationType" Value="ERROR"/>
+				<AdditionalAttribute AttributeName="additionalText" Value="A warmStart trap signifies that the sending protocol entity is reinitializing itself such that neither the agent configuration nor the protocol entity implementation is altered."/>
+			</AlarmTrapOidAT>
+				<!-- IF MIB -->
+			<AlarmTrapOidAT OID=".1.3.6.1.6.3.1.1.5.3">
+				<SpecificProblem AttributeName="SpecificProblem" Value="Link Down"/>
+				<ProbableCause AttributeName="ProbableCause" Value="305"/>
+				<EventType AttributeName="EventType" Value="1"/>
+				<PerceivedSeverity AttributeName="PerceivedSeverity" Value="MAJOR"/>
+				<NotificationType AttributeName="NotificationType" Value="ALARM"/>
+				<AdditionalAttribute AttributeName="additionalText" Value="A linkDown trap signifies that the SNMPv2 entity, acting in an agent role,has detected that the ifOperStatus object for one of its communication links is about to enter the down state from some other state"/>
+			</AlarmTrapOidAT>
+			<AlarmTrapOidAT OID=".1.3.6.1.6.3.1.1.5.4">
+				<SpecificProblem AttributeName="SpecificProblem" Value="Link Down"/>
+				<ProbableCause AttributeName="ProbableCause" Value="305"/>
+				<EventType AttributeName="EventType" Value="1"/>
+				<PerceivedSeverity AttributeName="PerceivedSeverity" Value="CLEARED"/>
+				<NotificationType AttributeName="NotificationType" Value="ALARM"/>
+				<AdditionalAttribute AttributeName="additionalText" Value="A linkDown trap signifies that the SNMPv2 entity, acting in an agent role,has detected that the ifOperStatus object for one of its communication links is about to enter the down state from some other state"/>
+			</AlarmTrapOidAT>
+			<AlarmTrapOidAT OID=".1.3.6.1.6.3.1.1.5.5">
+				<SpecificProblem AttributeName="SpecificProblem" Value="Authentication Failure"/>
+				<ProbableCause AttributeName="ProbableCause" Value="Authentication Failure"/>
+				<EventType AttributeName="EventType" Value="3"/>
+				<PerceivedSeverity AttributeName="PerceivedSeverity" Value="INDETERMINATE"/>
+				<NotificationType AttributeName="NotificationType" Value="ERROR"/>
+				<AdditionalAttribute AttributeName="additionalText" Value="An authenticationFailure trap signifies that the sending protocol entity is the addressee of a protocol message that is not properly authenticated."/>
+			</AlarmTrapOidAT>
+			<AlarmTrapOidAT OID=".1.3.6.1.6.3.1.1.5.6">
+				<SpecificProblem AttributeName="SpecificProblem" Value="egpNeighborLoss"/>
+				<ProbableCause AttributeName="ProbableCause" Value="305"/>
+				<EventType AttributeName="EventType" Value="3"/>
+				<PerceivedSeverity AttributeName="PerceivedSeverity" Value="INDETERMINATE"/>
+				<NotificationType AttributeName="NotificationType" Value="ERROR"/>
+				<AdditionalAttribute AttributeName="additionalText" Value="An egpNeighborLoss trap signifies that an EGP neighbor for whom the sending protocol entity was an EGP peer has been marked down and the peer relationship no longer obtains."/>
+			</AlarmTrapOidAT>
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.82.2.0.1">
+				<NotificationType AttributeName="NotificationType" Value="ALARM"/>
+				</AlarmTrapOidAT>
+				
+				<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.82.2.0.2">
+				<NotificationType AttributeName="NotificationType" Value="ALARM"/>
+				</AlarmTrapOidAT>
+				
+				<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.82.2.0.3">
+				<NotificationType AttributeName="NotificationType" Value="ALARM"/>
+				</AlarmTrapOidAT>
+				
+				<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.82.2.0.4">
+				<NotificationType AttributeName="NotificationType" Value="ALARM"/>
+				</AlarmTrapOidAT>
+				
+				<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.83.2.0.1">
+				<NotificationType AttributeName="NotificationType" Value="ERROR"/>
+				</AlarmTrapOidAT>
+				
+				<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.83.2.0.2">
+				<NotificationType AttributeName="NotificationType" Value="ERROR"/>
+				</AlarmTrapOidAT>
+				
+				<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.83.2.0.3">
+				<NotificationType AttributeName="NotificationType" Value="ERROR"/>
+				</AlarmTrapOidAT>
+				
+				<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.83.2.0.4">
+				<NotificationType AttributeName="NotificationType" Value="ERROR"/>
+				</AlarmTrapOidAT>
+			
+			</SourceTypeAT>
+   		</FMAlarmTable>
+	
+</CommonAAUModel>

@@ -1,0 +1,3093 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE CommonAAUModel SYSTEM "/opt/ericsson/snmpXml/CommonAAU.dtd">
+<CommonAAUModel>
+
+	<AlarmSupervision>
+			<SourceTypeAS SourceType="AXD">
+				
+				<AlarmTrapOidAS OID=".1.3.6.1.6.3.1.1.5.3">
+				<AttributeOid OID=".1.3.6.1.2.1.2.2.1.1" AttributeName="ifIndex"/>
+					<AttributeOid OID=".1.3.6.1.2.1.2.2.1.7" AttributeName="ifAdminStatus"/>
+					<AttributeOid OID=".1.3.6.1.2.1.2.2.1.8" AttributeName="ifOperStatus"/>
+            <AttributeOid OID=".1.3.6.1.2.1.31.1.1.1.1" AttributeName="ifname"/>
+			<AttributeOid OID=".1.3.6.1.2.1.2.2.1.2" AttributeName="ifdesc"/>
+				</AlarmTrapOidAS>
+				
+				<AlarmTrapOidAS OID=".1.3.6.1.6.3.1.1.5.4">
+				<AttributeOid OID=".1.3.6.1.2.1.2.2.1.1" AttributeName="ifIndex"/>
+					<AttributeOid OID=".1.3.6.1.2.1.2.2.1.7" AttributeName="ifAdminStatus"/>
+					<AttributeOid OID=".1.3.6.1.2.1.2.2.1.8" AttributeName="ifOperStatus"/>
+            <AttributeOid OID=".1.3.6.1.2.1.31.1.1.1.1" AttributeName="ifname"/>
+			<AttributeOid OID=".1.3.6.1.2.1.2.2.1.2" AttributeName="ifdesc"/>
+				</AlarmTrapOidAS>
+				
+				<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.14.1.1.6.0.3007">
+				<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.3.1.1.1.1" AttributeName="EventIndex"/>
+					<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.3.1.2.2" AttributeName="AlarmTime"/>
+					<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.3.2.2.3.1.4" AttributeName="EventType"/>
+					<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.3.2.2.3.1.8" AttributeName="AlarmInformation"/>
+					<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.3.2.2.3.1.5" AttributeName="AlarmCause"/>
+					<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.3.1.2.1" AttributeName="EventSender"/>
+					<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.3.2.2.3.1.6" AttributeName="axdperceivedSeverity"/>
+					<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.3.2.2.3.1.9" AttributeName="CurrentAlarmAddData"/>
+					<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.3.2.2.3.1.10" AttributeName="ProbableCause"/>
+					<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.3.2.2.3.1.1" AttributeName="alarmId"/>
+					<AttributeOid OID=".1.3.6.1.4.1.193.14.1.3.1.1.18" AttributeName="axdpchIndicator"/>
+					<AttributeOid OID=".1.3.6.1.4.1.193.14.1.3.1.1.13" AttributeName="axdloopbackMode"/>
+					<AttributeOid OID=".1.3.6.1.4.1.193.14.1.3.1.1.14" AttributeName="axdloopbackResult"/>
+					<AttributeOid OID=".1.3.6.1.4.1.193.14.1.3.1.1.15 " AttributeName="axdoamOperation"/>
+					<AttributeOid OID=".1.3.6.1.4.1.193.14.1.3.1.1.16" AttributeName="axdoamResult"/>
+					<AttributeOid OID=".1.3.6.1.4.1.193.14.1.3.1.1.22" AttributeName="axdpchVpVcFaultType"/>
+					<AttributeOid OID=".1.3.6.1.4.1.193.14.1.3.1.1.23" AttributeName="axdpchVpVcFaultLocation"/>
+					<AttributeOid OID=".1.3.6.1.4.1.193.14.1.3.13.2.1" AttributeName="axdcroEventFileName"/>
+					<AttributeOid OID=".1.3.6.1.4.1.193.14.1.3.13.2.2" AttributeName="axdcroEventFileSize"/>
+					<AttributeOid OID=".1.3.6.1.4.1.193.14.1.3.13.2.3" AttributeName="axdcroEventNoOfRecords"/>
+					<AttributeOid OID=".1.3.6.1.4.1.193.14.1.3.13.2.4" AttributeName="axdcroEventFtpAddress"/>
+					<AttributeOid OID=".1.3.6.1.4.1.193.14.1.3.13.2.5" AttributeName="axdcroEventDateAndTime"/>
+					<AttributeOid OID=".1.3.6.1.4.1.193.14.1.3.13.2.6" AttributeName="axdcroEventFtpResultCode"/>
+					<AttributeOid OID=".1.3.6.1.4.1.193.14.1.4.1.6.8" AttributeName="axdsysFirewallStatus"/>
+					<AttributeOid OID=".1.3.6.1.4.1.193.14.1.4.1.6.9" AttributeName="axdsysFirewallInfo"/>
+					<AttributeOid OID=".1.3.6.1.4.1.193.14.1.4.2.2.1" AttributeName="axdrestartingCP"/>
+					<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.6.4.2" AttributeName="axdbuStatus"/>
+					<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.6.4.3" AttributeName="axdbuResult"/>
+					<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.6.4.4" AttributeName="axdbuInfo"/>
+					<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.6.1.6.1" AttributeName="axdoptDmOpResult"/>
+					<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.6.1.6.2" AttributeName="axdoptDmOpInfo"/>
+					<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.6.1.5.1.1" AttributeName="axdoptDmShortName"/>
+					<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.6.5.1.3" AttributeName="axdpaStatus"/>
+					<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.6.5.1.4" AttributeName="axdpaResult"/>
+					<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.6.5.1.5" AttributeName="axdpaInfo"/>
+					<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.6.3.1.3" AttributeName="axdugStatus"/>
+					<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.6.3.1.4" AttributeName="axdugResult"/>
+					<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.6.3.1.5" AttributeName="axdugInfo"/>
+					<AttributeOid OID=".1.3.6.1.4.1.193.14.1.8.1.1.8.1.14" AttributeName="axdBgpEventRemoteAddr"/> 
+					<AttributeOid OID=".1.3.6.1.4.1.193.14.1.8.1.1.8.1.9.1.14" AttributeName="axdbgpPeerLastError"/>
+					<AttributeOid OID=".1.3.6.1.4.1.193.14.1.8.1.1.8.1.9.1.2" AttributeName="axdbgpPeerState"/>
+					<AttributeOid OID=".1.3.6.1.4.1.193.14.1.8.1.1.8.1.15" AttributeName="axdBgpPeerLastErrorReason"/>
+					<AttributeOid OID=".1.3.6.1.4.1.193.14.1.8.1.1.9.1.1.1" AttributeName="axdospfRouterId"/>
+					<AttributeOid OID=".1.3.6.1.4.1.193.14.1.8.1.1.9.1.19" AttributeName="axdospfEventIpAddr"/>
+					<AttributeOid OID=".1.3.6.1.4.1.193.14.1.8.1.1.9.1.20" AttributeName="axdospfEventAddressLessIndex"/>
+					<AttributeOid OID=".1.3.6.1.4.1.193.14.1.8.1.1.9.1.10.1.3" AttributeName="axdospfNbrRtrId"/>
+					<AttributeOid OID=".1.3.6.1.4.1.193.14.1.8.1.1.9.1.10.1.6" AttributeName="axdospfNbrState"/>
+					<AttributeOid OID=".1.3.6.1.4.1.193.14.1.8.1.1.10.1.1.13" AttributeName="axdisisEventSysLevel"/>
+					<AttributeOid OID=".1.3.6.1.4.1.193.14.1.8.1.1.10.1.1.3.1.1.2" AttributeName="axdisisCircIfIndex"/>
+					<AttributeOid OID=".1.3.6.1.4.1.193.14.1.8.1.1.10.1.1.14" AttributeName="axdisisEventLSPId"/>
+					<AttributeOid OID=".1.3.6.1.4.1.193.14.1.8.1.1.10.1.1.6.1.1.2" AttributeName="axdisisISAdjState"/>
+					<AttributeOid OID=".1.3.6.1.4.1.193.14.1.8.1.1.15.1.2" AttributeName="axdiprToCp"/>
+					<AttributeOid OID=".1.3.6.1.4.1.193.14.1.8.1.1.15.1.3" AttributeName="axdiprPreviousCp"/>
+					<AttributeOid OID=".1.3.6.1.2.1.1.5" AttributeName="axdsysName"/>
+					<AttributeOid OID=".1.3.6.1.4.1.193.137.2.2.2" AttributeName="axdsadEventAddressSrc"/>
+					<AttributeOid OID=".1.3.6.1.4.1.193.137.2.2.3" AttributeName="axdsadEventAddressDst"/>
+					<AttributeOid OID=".1.3.6.1.4.1.193.137.2.2.4" AttributeName="axdsadEventAssocSPI"/>
+					<AttributeOid OID=".1.3.6.1.4.1.193.137.2.1.1.1.4" AttributeName="axdsadBasePidNumber"/>
+					<AttributeOid OID=".1.3.6.1.4.1.193.137.2.1.1.1.5" AttributeName="axdsadBaseSaType"/>
+					<AttributeOid OID=".1.3.6.1.4.1.193.137.2.1.1.1.24" AttributeName="axdSadAddressSrcPort"/>
+					<AttributeOid OID=".1.3.6.1.4.1.193.137.2.1.1.1.25" AttributeName="axdSadAddressSrcProtocol"/>
+					<AttributeOid OID=".1.3.6.1.4.1.193.137.2.1.1.1.26" AttributeName="axdSadAddressDstPort"/>
+					<AttributeOid OID=".1.3.6.1.4.1.193.137.2.1.1.1.27" AttributeName="axdsadAddressDstProtocol"/>
+					<AttributeOid OID=".1.3.6.1.4.1.193.137.2.1.1.1.6" AttributeName="axdsadAssocReplay"/>
+					<AttributeOid OID=".1.3.6.1.4.1.193.137.2.1.1.1.8" AttributeName="axdsadAssocState"/>
+					<AttributeOid OID=".1.3.6.1.4.1.193.137.2.1.1.1.9" AttributeName="axdsadAssocAuth"/>
+					<AttributeOid OID=".1.3.6.1.4.1.193.137.2.1.1.1.10" AttributeName="axdSadAssocEncrypt"/>
+					<AttributeOid OID=".1.3.6.1.4.1.193.137.2.1.1.1.11" AttributeName="axdSadAssocFlags"/>
+					<AttributeOid OID=".1.3.6.1.4.1.193.137.2.1.1.1.12" AttributeName="axdSadTimeCurrentBytesHigh"/>
+					<AttributeOid OID=".1.3.6.1.4.1.193.137.2.1.1.1.13" AttributeName="axdSadTimeCurrentBytesLow"/>
+					<AttributeOid OID=".1.3.6.1.4.1.193.137.2.1.1.1.14" AttributeName="axdSadTimeCurrentAdd"/>
+					<AttributeOid OID=".1.3.6.1.4.1.193.137.2.1.1.1.15" AttributeName="axdsadTimeCurrentUse"/>
+					<AttributeOid OID=".1.3.6.1.4.1.193.137.2.1.1.1.20" AttributeName="axdSadTimeSoftBytesHigh"/>
+					<AttributeOid OID=".1.3.6.1.4.1.193.137.2.1.1.1.21" AttributeName="axdSadTimeSoftBytesLow"/>
+					<AttributeOid OID=".1.3.6.1.4.1.193.137.2.1.1.1.22" AttributeName="axdSadTimeSoftAdd"/>	
+					<AttributeOid OID=".1.3.6.1.4.1.193.137.2.1.1.1.23" AttributeName="axdSadTimeSoftUse"/>
+					<AttributeOid OID=".1.3.6.1.4.1.193.60.2.7.4.1" AttributeName="axdmigLoopbackStatus"/>
+					<AttributeOid OID=".1.3.6.1.4.1.193.14.1.8.1.1.12.1.1.7" AttributeName="axdpingNotificationType"/>
+					<AttributeOid OID=".1.3.6.1.4.1.193.14.1.8.1.1.12.1.1.8" AttributeName="axdpingEventCtlOwnerIndex"/>
+					<AttributeOid OID=".1.3.6.1.4.1.193.14.1.8.1.1.12.1.1.9" AttributeName="axdpingEventCtlTestName"/>
+					<AttributeOid OID=".1.3.6.1.4.1.193.14.1.8.1.1.12.1.1.2.1.3" AttributeName="axdpingCtlTargetAddress"/>
+					<AttributeOid OID=".1.3.6.1.4.1.193.14.1.8.1.1.12.1.1.3.1.1" AttributeName="axdpingResultsOperStatus"/>
+					<AttributeOid OID=".1.3.6.1.4.1.193.14.1.8.1.1.12.1.1.3.1.2" AttributeName="axdpingResultsIpTargetAddress"/>
+					<AttributeOid OID=".1.3.6.1.4.1.193.14.1.8.1.1.12.1.1.3.1.6" AttributeName="axdpingResultsProbeResponses"/>
+					<AttributeOid OID=".1.3.6.1.4.1.193.14.1.8.1.1.12.1.1.3.1.7" AttributeName="axdpingResultsSentProbes"/>
+					<AttributeOid OID=".1.3.6.1.4.1.193.14.1.8.1.1.12.1.1.3.1.9" AttributeName="axdpingResultsLastGoodProbe"/>
+					<AttributeOid OID=".1.3.6.1.4.1.193.14.1.8.1.1.12.1.1.10" AttributeName="axdIcmpErrorType"/>
+					<AttributeOid OID=".1.3.6.1.4.1.193.14.1.8.1.1.12.1.1.11" AttributeName="axdErrorTypeText"/>
+					<AttributeOid OID=".1.3.6.1.4.1.193.14.1.8.1.1.12.1.1.12" AttributeName="axdIcmpErrorCode"/>
+					<AttributeOid OID=".1.3.6.1.4.1.193.14.1.8.1.1.12.1.1.13" AttributeName="axdErrorCodeText"/>
+					<AttributeOid OID=".1.3.6.1.4.1.193.14.1.8.1.1.12.1.1.14" AttributeName="axdIcmpErrorSrcAddress"/>
+					<AttributeOid OID=".1.3.6.1.4.1.193.14.1.8.1.1.12.1.1.15" AttributeName="axdIcmpErrorDstAddress"/>
+					<AttributeOid OID=".1.3.6.1.4.1.193.14.1.8.1.1.12.1.1.16" AttributeName="axdIcmpErrorInfo"/>
+					<AttributeOid OID=".1.3.6.1.4.1.193.14.1.8.1.1.13.1.1.7" AttributeName="axdtraceRouteNotificationType"/>
+					<AttributeOid OID=".1.3.6.1.4.1.193.14.1.8.1.1.13.1.1.6" AttributeName="axdtraceRouteEventCtlOwnerIndex"/>
+					<AttributeOid OID=".1.3.6.1.4.1.193.14.1.8.1.1.13.1.1.9" AttributeName="axdtraceRouteEventCtlTestName"/>
+					<AttributeOid OID=".1.3.6.1.4.1.193.14.1.8.1.1.13.1.1.2.1.3" AttributeName="axdtraceRouteCtlTargetAddress"/>
+					<AttributeOid OID=".1.3.6.1.2.1.10.18.6.1.10" AttributeName="axdDsx1LineStatus"/>
+					<AttributeOid OID=".1.3.6.1.2.1.10.18.6.1.16" AttributeName="axdDsx1LineStatusLastChange"/>
+					<AttributeOid OID=".1.3.6.1.2.1.26.2.1.1.7" AttributeName="axdifMauJabberState"/>
+					<AttributeOid OID=".1.3.6.1.4.1.193.60.2.5.2.1" AttributeName="axdgcpLinkReasonCode"/>
+					<AttributeOid OID=".1.3.6.1.4.1.193.14.1.2.12.1.1.7" AttributeName="axdprSwLocalSelector"/>
+					<AttributeOid OID=".1.3.6.1.4.1.193.14.1.2.4.7.5" AttributeName="axdposition"/>
+					<AttributeOid OID=".1.3.6.1.4.1.193.14.1.2.4.7.12" AttributeName="axdcreatedEmType"/>
+					<AttributeOid OID=".1.3.6.1.4.1.193.14.1.2.4.7.13" AttributeName="axdfailureReason"/>
+					<AttributeOid OID=".1.3.6.1.4.1.193.14.1.2.4.7.6" AttributeName="axdfrontProductName"/>
+					<AttributeOid OID=".1.3.6.1.4.1.193.14.1.2.4.7.7" AttributeName="axdfrontProductNo"/>
+					<AttributeOid OID=".1.3.6.1.4.1.193.14.1.2.4.7.8" AttributeName="axdfrontProductRev"/>
+					<AttributeOid OID=".1.3.6.1.4.1.193.14.1.2.4.7.9" AttributeName="axdbackProductName"/>
+					<AttributeOid OID=".1.3.6.1.4.1.193.14.1.2.4.7.10" AttributeName="axdbackProductNo"/>
+					<AttributeOid OID=".1.3.6.1.4.1.193.14.1.2.4.7.11" AttributeName="axdbackProductRev"/>
+					<AttributeOid OID=".1.3.6.1.4.1.193.14.1.2.4.7.3" AttributeName="axdtestResult"/>
+					<AttributeOid OID=".1.3.6.1.4.1.193.14.1.2.4.7.4" AttributeName="axdrequestId"/>
+					<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.2.2.2.1.1" AttributeName="axdLogRecAcIndex"/>
+					<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.2.2.2.1.14" AttributeName="axdlogRecAcStatus"/>
+					<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.2.2.7" AttributeName="axdlogRecAcInfo"/>
+					<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.5.6.1" AttributeName="axdsecOperation"/>
+					<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.7.3.1.1" AttributeName="axdbatchExecResId"/>
+					<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.4.3.4" AttributeName="axdmrErrorCode"/>
+					<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.4.3.3" AttributeName="axdmrErrorOid"/>
+					<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.4.3.6" AttributeName="axdperfFileName"/>
+					<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.4.3.7" AttributeName="axdperfFileFcode"/>
+					<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.4.3.5" AttributeName="axdperfInfo"/>
+					<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.4.3.1" AttributeName="axdmrMeasTime"/>
+					<AttributeOid OID=".1.3.6.1.4.1.193.14.1.3.2.1.11.1.1" AttributeName="axdpnniPortId"/>
+				  <AttributeOid OID=".1.3.6.1.4.1.193.14.1.3.3.1.1.1.1" AttributeName="axduniId"/>
+					<AttributeOid OID=".1.3.6.1.4.1.193.14.1.3.14.1.1.1.1" AttributeName="axdiispId"/>
+					<AttributeOid OID=".1.3.6.1.4.1.193.14.1.3.15.1.1.1.1" AttributeName="axdainiId"/>
+					<AttributeOid OID=".1.3.6.1.4.1.193.14.1.2.5.1.2.1.1" AttributeName="axdifIndex"/>
+					<AttributeOid OID=".1.3.6.1.4.1.353.5.7.1.1.5" AttributeName="axdimaAlarmStatus"/>
+					<AttributeOid OID=".1.3.6.1.4.1.353.5.7.1.1.6" AttributeName="axdimaAlarmType"/>
+					<AttributeOid OID=".1.3.6.1.4.1.193.14.1.7.13.1.4.1.8" AttributeName="axdmplsXCAdminStatus"/>
+					<AttributeOid OID=".1.3.6.1.4.1.193.14.1.7.16.5.1.1.6.1.19" AttributeName="axdrsvpIfOperStatus"/>
+					<AttributeOid OID=".1.3.6.1.4.1.193.14.1.7.16.2.1.1.1.1.3" AttributeName="axdmplsIfOperStatus"/>
+					<AttributeOid OID=".1.3.6.1.4.1.193.14.1.7.16.6.1.2.2.1.5" AttributeName="axdmplsTunnelName"/>
+					<AttributeOid OID=".1.3.6.1.4.1.193.14.1.7.16.6.1.2.2.1.32" AttributeName="axdmplsTunnelFailureReason"/>
+					<AttributeOid OID=".1.3.6.1.4.1.193.14.1.7.2.1.1.1.1" AttributeName="axdmplsIfIPAddr"/>
+					<AttributeOid OID=".1.3.6.1.4.1.193.14.1.7.13.1.4.1.9" AttributeName="axdmplsXCOperStatus"/>
+					<AttributeOid OID=".1.3.6.1.4.1.193.14.1.7.13.1.2.1.1" AttributeName="axdmplsInSegmentIfIpAddr"/>
+					<AttributeOid OID=".1.3.6.1.4.1.193.14.1.3.2.1.7.1.7" AttributeName="axdaxd301pnniLinkIfIndex"/>
+					<AttributeOid OID=".1.3.6.1.4.1.193.14.1.7.13.1.2.1.2" AttributeName="axdmplsInSegmentLabel"/>
+					<AttributeOid OID=".1.3.6.1.4.1.193.14.1.7.13.1.3.1.1" AttributeName="axdmplsOutSegmentIfIpAddr"/>
+					<AttributeOid OID=".1.3.6.1.4.1.193.14.1.7.2.1.1.1.3" AttributeName="axdmplsIfIndex"/>
+					<AttributeOid OID=".1.3.6.1.4.1.193.14.1.7.3.1.3.1.1.8" AttributeName="axdmplsLdpSesState"/>
+					<AttributeOid OID=".1.3.6.1.4.1.193.14.1.3.11.2.1.1.4.2" AttributeName="axdfrSwitchedPvcCallFailures"/>
+					<AttributeOid OID=".1.3.6.1.4.1.193.14.1.3.11.2.1.1.4.3" AttributeName="axdfrSwitchedPvcCurrentlyFailingSwitchedPvcs"/>
+					<AttributeOid OID=".1.3.6.1.4.1.193.14..1.3.6.1.1.1.2" AttributeName="axdsaalUniVclVpi"/>
+					<AttributeOid OID=".1.3.6.1.4.1.193.14..1.3.6.1.1.1.3" AttributeName="axdsaalUniVclVci"/>
+					<AttributeOid OID=".1.3.6.1.4.1.193.14..1.3.6.1.1.1.1" AttributeName="axdaxd301saalUniIfIndex"/>
+					<AttributeOid OID=".1.3.6.1.4.1.353.5.5.1.1.2" AttributeName="axdatmSoftPvcCallFailures"/>
+					<AttributeOid OID=".1.3.6.1.4.1.353.5.5.1.1.3" AttributeName="axdatmSoftPvcCurrentlyFailingSoftPVccs"/>
+					<AttributeOid OID=".1.3.6.1.4.1.353.5.5.1.1.4" AttributeName="axdatmSoftPvcCurrentlyFailingSoftPVpcs"/>
+					<AttributeOid OID=".1.3.6.1.4.1.193.14.1.3.11.1.3" AttributeName="axdspvcOperationIndicator"/>
+					<AttributeOid OID=".1.3.6.1.4.1.193.11.1.1.2.1.1.2" AttributeName="axdTrapSequenceNumbers"/>
+					<AttributeOid OID=".1.3.6.1.2.1.31.1.1.1.1" AttributeName="ifname"/>
+					<AttributeOid OID=".1.3.6.1.2.1.2.2.1.1" AttributeName="ifIndex"/>
+					<AttributeOid OID=".1.3.6.1.2.1.2.2.1.2" AttributeName="ifdesc"/>
+					<AttributeOid OID=".1.3.6.1.2.1.2.2.1.3" AttributeName="ifType"/>
+					<AttributeOid OID=".1.3.6.1.2.1.2.2.1.7" AttributeName="ifAdminStatus"/>
+					<AttributeOid OID=".1.3.6.1.2.1.2.2.1.8" AttributeName="ifOperStatus"/>
+					<AttributeOid OID=".1.3.6.1.4.1.193.11.1.1.3.3" AttributeName="axdeventReason"/>
+					<AttributeOid OID=".1.3.6.1.4.1.193.11.1.1.3.2" AttributeName="axddnaCommunityString"/>
+					<AttributeOid OID=".1.3.6.1.4.1.193.11.1.1.3.1" AttributeName="axddnaIpAddress"/>
+					<AttributeOid OID=".1.3.6.1.4.1.193.11.1.1.1.1.1.4" AttributeName="axd301dnaInterfaceEnteringMethod"/>
+					<AttributeOid OID=".1.3.6.1.4.1.193.11.1.1.1.1.1.2" AttributeName="axd301dnaInterfaceMyNeighbourAddress"/>
+					<AttributeOid OID=".1.3.6.1.4.1.193.11.1.1.1.1.1.3" AttributeName="axd301dnaInterfaceMyNeighbourIfName"/>
+					<AttributeOid OID=".1.3.6.1.4.1.193.11.1.1.2.2" AttributeName="axdObjectId"/>
+					<AttributeOid OID=".1.3.6.1.4.1.353.2.5.1.1.1" AttributeName="axdatmfVccPortIndex"/>
+					<AttributeOid OID=".1.3.6.1.4.1.353.2.4.1.1.1" AttributeName="axdatmfVpcPortIndex"/>
+					<AttributeOid OID=".1.3.6.1.4.1.353.2.4.1.1.2" AttributeName="axdatmfVpcVpi"/>
+					<AttributeOid OID=".1.3.6.1.4.1.353.2.4.1.1.3" AttributeName="axdatmfVccOperStatus"/>
+					<AttributeOid OID=".1.3.6.1.4.1.353.2.5.1.1.2" AttributeName="axdatmfVccVci"/>
+					<AttributeOid OID=".1.3.6.1.4.1.353.2.5.1.1.3" AttributeName="axdatmfVccVpi"/>
+					<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.3.2.2.3.1.2" AttributeName="SpecificProblem"/>
+				</AlarmTrapOidAS>
+				
+				<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.14.1.3.1.0.10023">
+					<AttributeOid OID=".1.3.6.1.4.1.353.2.5.1.1.3" AttributeName="axdatmfVccVpi"/>
+			 	</AlarmTrapOidAS>
+				<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.14.1.3.1.0.10003">
+					<AttributeOid OID=".1.3.6.1.4.1.353.2.5.1.1.3" AttributeName="axdatmfVccVpi"/>
+				</AlarmTrapOidAS>
+				<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.14.1.3.1.0.10008">
+					<AttributeOid OID=".1.3.6.1.4.1.353.2.5.1.1.3" AttributeName="axdatmfVccVpi"/>
+				</AlarmTrapOidAS>
+				
+				<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.14.1.3.1.0.10002">
+					<AttributeOid OID=".1.3.6.1.4.1.353.2.5.1.1.3" AttributeName="axdatmfVccVpi"/>
+			 	</AlarmTrapOidAS>
+			
+				<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.14.1.3.1.0.10022">
+					<AttributeOid OID=".1.3.6.1.4.1.353.2.5.1.1.3" AttributeName="axdatmfVccVpi"/>
+				</AlarmTrapOidAS>
+			
+				<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.14.1.3.13.0.30002">
+					<AttributeOid OID=".1.3.6.1.4.1.353.2.5.1.1.3" AttributeName="axdatmfVccVpi"/>
+				</AlarmTrapOidAS>
+				
+				<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.14.1.3.1.0.1000">
+					<AttributeOid OID=".1.3.6.1.4.1.353.2.5.1.1.3" AttributeName="axdatmfVccVpi"/>
+			 	</AlarmTrapOidAS>
+			
+				<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.14.1.3.1.0.1001">
+					<AttributeOid OID=".1.3.6.1.4.1.353.2.5.1.1.3" AttributeName="axdatmfVccVpi"/>
+				</AlarmTrapOidAS>
+			
+				<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.14.1.3.13.0.3003">
+					<AttributeOid OID=".1.3.6.1.4.1.353.2.5.1.1.3" AttributeName="axdatmfVccVpi"/>
+				</AlarmTrapOidAS>
+				<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.14.1.3.13.0.3008">
+					<AttributeOid OID=".1.3.6.1.4.1.353.2.5.1.1.3" AttributeName="axdatmfVccVpi"/>
+			 	</AlarmTrapOidAS>
+			
+				<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.14.1.3.13.0.3009">
+					<AttributeOid OID=".1.3.6.1.4.1.353.2.5.1.1.3" AttributeName="axdatmfVccVpi"/>
+				</AlarmTrapOidAS>
+			
+				<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.14.1.3.13.0.3010">
+					<AttributeOid OID=".1.3.6.1.4.1.353.2.5.1.1.3" AttributeName="axdatmfVccVpi"/>
+				</AlarmTrapOidAS>
+				
+				<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.14.1.3.13.0.3011">
+					<AttributeOid OID=".1.3.6.1.4.1.353.2.5.1.1.3" AttributeName="axdatmfVccVpi"/>
+			 	</AlarmTrapOidAS>
+			
+				<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.14.1.4.0.20007">
+					<AttributeOid OID=".1.3.6.1.4.1.353.2.5.1.1.3" AttributeName="axdatmfVccVpi"/>
+				</AlarmTrapOidAS>
+			
+				<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.14.1.4.0.20008">
+					<AttributeOid OID=".1.3.6.1.4.1.353.2.5.1.1.3" AttributeName="axdatmfVccVpi"/>
+				</AlarmTrapOidAS>
+				
+				<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.14.1.4.0.20006">
+					<AttributeOid OID=".1.3.6.1.4.1.353.2.5.1.1.3" AttributeName="axdatmfVccVpi"/>
+				</AlarmTrapOidAS>
+				
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.14.1.4.0.20015">
+				<AttributeOid OID=".1.3.6.1.4.1.353.2.5.1.1.3" AttributeName="axdatmfVccVpi"/>
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.14.1.4.0.20011">
+				<AttributeOid OID=".1.3.6.1.4.1.353.2.5.1.1.3" AttributeName="axdatmfVccVpi"/>
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.14.1.4.0.20013">
+				<AttributeOid OID=".1.3.6.1.4.1.353.2.5.1.1.3" AttributeName="axdatmfVccVpi"/>
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.14.1.4.0.20014">
+				<AttributeOid OID=".1.3.6.1.4.1.353.2.5.1.1.3" AttributeName="axdatmfVccVpi"/>
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.14.1.4.2.0.20004">
+				<AttributeOid OID=".1.3.6.1.4.1.353.2.5.1.1.3" AttributeName="axdatmfVccVpi"/>
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.14.1.4.2.0.20002">	
+				<AttributeOid OID=".1.3.6.1.4.1.353.2.5.1.1.3" AttributeName="axdatmfVccVpi"/>			
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.14.1.4.2.0.20000">
+				<AttributeOid OID=".1.3.6.1.4.1.353.2.5.1.1.3" AttributeName="axdatmfVccVpi"/>
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.14.1.4.2.0.20005">	
+				<AttributeOid OID=".1.3.6.1.4.1.353.2.5.1.1.3" AttributeName="axdatmfVccVpi"/>		
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.14.1.4.2.0.20003">	
+				<AttributeOid OID=".1.3.6.1.4.1.353.2.5.1.1.3" AttributeName="axdatmfVccVpi"/>			
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.14.1.4.2.0.20001">	
+				<AttributeOid OID=".1.3.6.1.4.1.353.2.5.1.1.3" AttributeName="axdatmfVccVpi"/>
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.14.1.4.2.0.20011">
+				<AttributeOid OID=".1.3.6.1.4.1.353.2.5.1.1.3" AttributeName="axdatmfVccVpi"/>				
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.14.1.4.2.0.2000">
+				<AttributeOid OID=".1.3.6.1.4.1.353.2.5.1.1.3" AttributeName="axdatmfVccVpi"/>				
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.14.1.4.2.0.2001">	
+				<AttributeOid OID=".1.3.6.1.4.1.353.2.5.1.1.3" AttributeName="axdatmfVccVpi"/>	
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.14.1.4.2.0.2002">
+				<AttributeOid OID=".1.3.6.1.4.1.353.2.5.1.1.3" AttributeName="axdatmfVccVpi"/>
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.14.1.4.2.0.2003">
+				<AttributeOid OID=".1.3.6.1.4.1.353.2.5.1.1.3" AttributeName="axdatmfVccVpi"/>
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.14.1.4.2.0.2004">
+				<AttributeOid OID=".1.3.6.1.4.1.353.2.5.1.1.3" AttributeName="axdatmfVccVpi"/>
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.14.1.4.2.0.2009">
+				<AttributeOid OID=".1.3.6.1.4.1.353.2.5.1.1.3" AttributeName="axdatmfVccVpi"/>
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.14.1.1.7.0.30014">
+				<AttributeOid OID=".1.3.6.1.4.1.353.2.5.1.1.3" AttributeName="axdatmfVccVpi"/>
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.14.1.2.6.0.4030">
+				<AttributeOid OID=".1.3.6.1.4.1.353.2.5.1.1.3" AttributeName="axdatmfVccVpi"/>
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.14.1.2.6.0.4031">
+				<AttributeOid OID=".1.3.6.1.4.1.353.2.5.1.1.3" AttributeName="axdatmfVccVpi"/>			
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.14.1.2.6.0.4032">
+				<AttributeOid OID=".1.3.6.1.4.1.353.2.5.1.1.3" AttributeName="axdatmfVccVpi"/>				
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.14.1.2.6.0.4033">
+				<AttributeOid OID=".1.3.6.1.4.1.353.2.5.1.1.3" AttributeName="axdatmfVccVpi"/>
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.14.1.2.6.0.4034">	
+				<AttributeOid OID=".1.3.6.1.4.1.353.2.5.1.1.3" AttributeName="axdatmfVccVpi"/>		
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.14.1.2.6.0.4035">
+				<AttributeOid OID=".1.3.6.1.4.1.353.2.5.1.1.3" AttributeName="axdatmfVccVpi"/>
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.14.1.2.6.0.4036">
+				<AttributeOid OID=".1.3.6.1.4.1.353.2.5.1.1.3" AttributeName="axdatmfVccVpi"/>
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.14.1.2.2.0.4003">
+				<AttributeOid OID=".1.3.6.1.4.1.353.2.5.1.1.3" AttributeName="axdatmfVccVpi"/>
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.14.1.2.2.0.4004">
+				<AttributeOid OID=".1.3.6.1.4.1.353.2.5.1.1.3" AttributeName="axdatmfVccVpi"/>
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.14.1.2.3.0.4001">
+			<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.3.1.2.1" AttributeName="EventSender"/>
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.14.1.2.3.0.4017">
+			<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.3.1.2.1" AttributeName="EventSender"/>
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.14.1.2.3.0.4018">
+			<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.3.1.2.1" AttributeName="EventSender"/>
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.14.1.2.3.0.4019">
+			<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.3.1.2.1" AttributeName="EventSender"/>
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.14.1.2.3.0.4020">
+			<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.3.1.2.1" AttributeName="EventSender"/>
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.14.1.2.10.0.4045">
+			<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.3.1.2.1" AttributeName="EventSender"/>
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.14.1.2.10.0.4046">
+			<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.3.1.2.1" AttributeName="EventSender"/>
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.14.1.2.10.0.4047">
+			<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.3.1.2.1" AttributeName="EventSender"/>
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.14.1.2.10.0.4048">
+			<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.3.1.2.1" AttributeName="EventSender"/>
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.14.1.2.8.0.4013">
+			<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.3.1.2.1" AttributeName="EventSender"/>
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.14.1.2.8.0.4014">
+			<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.3.1.2.1" AttributeName="EventSender"/>
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.14.1.2.8.0.4015">
+					<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.3.1.2.1" AttributeName="EventSender"/>
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.14.1.2.8.0.4016">
+					<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.3.1.2.1" AttributeName="EventSender"/>
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.14.1.2.9.0.4049">
+					<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.3.1.2.1" AttributeName="EventSender"/>
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.14.1.2.9.0.4053">
+					<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.3.1.2.1" AttributeName="EventSender"/>
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.14.1.2.9.0.4054">
+				<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.3.1.2.1" AttributeName="EventSender"/>	
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.14.1.1.4.0.30011">
+					<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.3.1.2.1" AttributeName="EventSender"/>
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.14.1.1.4.0.30012">
+				<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.3.1.2.1" AttributeName="EventSender"/>	
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.14.1.1.4.0.30000">
+				<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.3.1.2.1" AttributeName="EventSender"/>		
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.14.1.1.4.0.30001">
+					<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.3.1.2.1" AttributeName="EventSender"/>
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.14.1.1.4.0.30010">
+					<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.3.1.2.1" AttributeName="EventSender"/>
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.14.1.1.4.0.3000">
+				<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.3.1.2.1" AttributeName="EventSender"/>	
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.14.1.1.4.0.30009">
+				<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.3.1.2.1" AttributeName="EventSender"/>
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.14.1.1.4.0.3013">
+				<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.3.1.2.1" AttributeName="EventSender"/>
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.14.1.1.4.0.3014">
+				<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.3.1.2.1" AttributeName="EventSender"/>
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.14.1.1.5.0.30013">
+				<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.3.1.2.1" AttributeName="EventSender"/>
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.14.1.1.5.0.3015">
+				<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.3.1.2.1" AttributeName="EventSender"/>	
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.14.1.1.5.0.3001">
+				<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.3.1.2.1" AttributeName="EventSender"/>
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.14.1.1.2.0.30008">
+					<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.3.1.2.1" AttributeName="EventSender"/>
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.14.1.1.2.0.3004">
+					<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.3.1.2.1" AttributeName="EventSender"/>
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.14.1.1.2.0.3006">
+					<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.3.1.2.1" AttributeName="EventSender"/>
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.14.1.1.5.0.30005">
+					<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.3.1.2.1" AttributeName="EventSender"/>
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.14.1.1.6.0.20014">
+				<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.3.1.2.1" AttributeName="EventSender"/>
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.14.1.1.6.0.20009">
+					<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.3.1.2.1" AttributeName="EventSender"/>
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.14.1.1.6.0.30006">
+				<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.3.1.2.1" AttributeName="EventSender"/>
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.14.1.1.6.0.20010">
+					<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.3.1.2.1" AttributeName="EventSender"/>
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.14.1.1.6.0.20012">
+				<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.3.1.2.1" AttributeName="EventSender"/>
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.14.1.1.6.0.30004">
+					<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.3.1.2.1" AttributeName="EventSender"/>
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.14.1.1.6.0.30007">
+					<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.3.1.2.1" AttributeName="EventSender"/>
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.14.1.1.6.0.2010">
+					<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.3.1.2.1" AttributeName="EventSender"/>
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.14.0.2012">
+					<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.3.1.2.1" AttributeName="EventSender"/>
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.14.0.2013">
+				<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.3.1.2.1" AttributeName="EventSender"/>	
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.14.0.2005">
+					<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.3.1.2.1" AttributeName="EventSender"/>
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.14.0.2006">
+					<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.3.1.2.1" AttributeName="EventSender"/>
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.14.0.2007">
+					<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.3.1.2.1" AttributeName="EventSender"/>
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.14.0.2008">
+				<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.3.1.2.1" AttributeName="EventSender"/>	
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.14.1.8.1.1.2.1.7.5012">
+					<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.3.1.2.1" AttributeName="EventSender"/>
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.14.1.8.1.1.2.1.7.5015">
+					<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.3.1.2.1" AttributeName="EventSender"/>
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.14.1.8.1.1.8.1.0.50101">
+				<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.3.1.2.1" AttributeName="EventSender"/>	
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.14.1.8.1.1.8.1.0.50102">
+					<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.3.1.2.1" AttributeName="EventSender"/>
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.14.1.8.1.1.9.1.0.50105">
+				<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.3.1.2.1" AttributeName="EventSender"/>	
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.14.1.8.1.1.6.1.0.5010">
+				<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.3.1.2.1" AttributeName="EventSender"/>	
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.14.1.8.1.1.10.1.1.0.50108">
+				<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.3.1.2.1" AttributeName="EventSender"/>	
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.14.1.8.1.1.15.1.0.50107">
+				<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.3.1.2.1" AttributeName="EventSender"/>	
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.14.1.8.1.1.17.1.2.0.5013">
+					<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.3.1.2.1" AttributeName="EventSender"/>
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.14.1.8.1.1.17.1.2.0.5014">
+				<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.3.1.2.1" AttributeName="EventSender"/>	
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.14.1.8.1.1.17.1.2.0.50109">
+				<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.3.1.2.1" AttributeName="EventSender"/>	
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.14.1.8.1.1.17.1.2.0.50110">
+				<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.3.1.2.1" AttributeName="EventSender"/>	
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.137.2.2.0.1">
+				<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.3.1.2.1" AttributeName="EventSender"/>	
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.137.2.2.0.2">
+				<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.3.1.2.1" AttributeName="EventSender"/>	
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.137.2.2.0.3">
+				<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.3.1.2.1" AttributeName="EventSender"/>	
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.14.1.2.16.0.4076">
+				<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.3.1.2.1" AttributeName="EventSender"/>	
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.14.1.2.16.0.4077">
+				<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.3.1.2.1" AttributeName="EventSender"/>	
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.14.1.2.18.0.4080">
+				<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.3.1.2.1" AttributeName="EventSender"/>	
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.14.1.2.19.0.4079">
+				<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.3.1.2.1" AttributeName="EventSender"/>	
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.14.1.2.20.0.4078">
+				<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.3.1.2.1" AttributeName="EventSender"/>	
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.14.1.2.21.0.4082">
+				<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.3.1.2.1" AttributeName="EventSender"/>	
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.14.1.2.21.0.4084">
+				<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.3.1.2.1" AttributeName="EventSender"/>	
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.14.1.2.21.0.40024">
+				<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.3.1.2.1" AttributeName="EventSender"/>	
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.14.1.2.12.0.40019">
+				<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.3.1.2.1" AttributeName="EventSender"/>	
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.14.1.2.12.0.4056">
+				<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.3.1.2.1" AttributeName="EventSender"/>	
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.14.1.2.12.0.4057">
+				<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.3.1.2.1" AttributeName="EventSender"/>	
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.14.1.2.15.1.0.4068">
+				<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.3.1.2.1" AttributeName="EventSender"/>	
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.353.5.7.1.2.0.1">
+				<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.3.1.2.1" AttributeName="EventSender"/>	
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.14.1.2.14.1.0.4067">
+				<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.3.1.2.1" AttributeName="EventSender"/>	
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.14.1.2.14.1.0.4066">
+				<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.3.1.2.1" AttributeName="EventSender"/>	
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.14.1.7.3.2.0.5001">
+				<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.3.1.2.1" AttributeName="EventSender"/>	
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.14.1.2.4.0.40025">
+				<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.3.1.2.1" AttributeName="EventSender"/>	
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.14.1.2.4.0.40020">
+				<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.3.1.2.1" AttributeName="EventSender"/>	
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.14.1.2.4.0.40021">
+				<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.3.1.2.1" AttributeName="EventSender"/>	
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.14.1.2.4.0.40024">
+				<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.3.1.2.1" AttributeName="EventSender"/>	
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.14.1.2.4.0.40016">
+				<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.3.1.2.1" AttributeName="EventSender"/>	
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.14.1.2.4.0.40017">
+				<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.3.1.2.1" AttributeName="EventSender"/>	
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.14.1.2.4.0.40018">
+				<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.3.1.2.1" AttributeName="EventSender"/>	
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.14.1.2.4.0.40015">
+				<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.3.1.2.1" AttributeName="EventSender"/>	
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.14.1.2.4.0.40008">
+				<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.3.1.2.1" AttributeName="EventSender"/>	
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.14.1.2.4.0.4009">
+				<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.3.1.2.1" AttributeName="EventSender"/>	
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.14.1.2.4.0.4065">
+				<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.3.1.2.1" AttributeName="EventSender"/>	
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.14.1.2.4.0.4071">
+				<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.3.1.2.1" AttributeName="EventSender"/>	
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.14.1.2.4.0.4010">
+				<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.3.1.2.1" AttributeName="EventSender"/>	
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.14.1.2.4.0.4021">
+				<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.3.1.2.1" AttributeName="EventSender"/>	
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.14.1.2.4.0.4022">
+				<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.3.1.2.1" AttributeName="EventSender"/>	
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.14.1.2.4.0.4023">
+				<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.3.1.2.1" AttributeName="EventSender"/>	
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.14.1.2.4.0.4024">
+				<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.3.1.2.1" AttributeName="EventSender"/>	
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.14.1.2.4.0.4055">
+				<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.3.1.2.1" AttributeName="EventSender"/>	
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.14.1.2.4.0.4025">
+				<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.3.1.2.1" AttributeName="EventSender"/>	
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.14.1.2.4.0.4026">
+				<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.3.1.2.1" AttributeName="EventSender"/>	
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.14.1.2.4.0.4027">
+				<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.3.1.2.1" AttributeName="EventSender"/>	
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.14.1.2.4.0.4028">
+				<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.3.1.2.1" AttributeName="EventSender"/>		
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.14.1.2.4.0.4038">
+					<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.3.1.2.1" AttributeName="EventSender"/>
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.14.1.2.4.0.4044">
+				<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.3.1.2.1" AttributeName="EventSender"/>	
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.14.1.2.4.0.4040">
+				<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.3.1.2.1" AttributeName="EventSender"/>	
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.14.1.2.4.0.4042">
+					<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.3.1.2.1" AttributeName="EventSender"/>
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.14.1.2.4.0.4041">
+					<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.3.1.2.1" AttributeName="EventSender"/>
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.14.1.2.4.0.4029">
+				<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.3.1.2.1" AttributeName="EventSender"/>	
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.14.1.2.4.0.4011">
+				<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.3.1.2.1" AttributeName="EventSender"/>	
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.14.1.2.4.0.4070">
+				<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.3.1.2.1" AttributeName="EventSender"/>	
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.14.1.2.4.0.4069">
+				<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.3.1.2.1" AttributeName="EventSender"/>		
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.14.1.2.4.0.4012">
+				<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.3.1.2.1" AttributeName="EventSender"/>	
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.14.1.2.4.0.4063">
+				<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.3.1.2.1" AttributeName="EventSender"/>	
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.14.1.2.4.0.4064">
+				<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.3.1.2.1" AttributeName="EventSender"/>	
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.14.1.2.4.0.4050">
+				<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.3.1.2.1" AttributeName="EventSender"/>	
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.14.1.2.4.0.4051">
+				<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.3.1.2.1" AttributeName="EventSender"/>	
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.14.1.2.4.0.4072">
+				<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.3.1.2.1" AttributeName="EventSender"/>	
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.14.1.2.4.0.4083">
+				<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.3.1.2.1" AttributeName="EventSender"/>	
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.14.1.2.4.0.4074">
+				<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.3.1.2.1" AttributeName="EventSender"/>	
+			</AlarmTrapOidAS>
+			
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.14.1.2.4.0.4073">
+				<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.3.1.2.1" AttributeName="EventSender"/>	
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.14.1.2.4.0.4075">
+					<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.3.1.2.1" AttributeName="EventSender"/>
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.14.1.2.5.0.40009">
+				<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.3.1.2.1" AttributeName="EventSender"/>	
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.14.1.2.4.0.4037">
+				<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.3.1.2.1" AttributeName="EventSender"/>	
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.14.1.2.5.0.4037">
+				<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.3.1.2.1" AttributeName="EventSender"/>	
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.14.1.2.1.0.4060">
+				<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.3.1.2.1" AttributeName="EventSender"/>
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.14.1.2.1.0.4061">
+				<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.3.1.2.1" AttributeName="EventSender"/>	
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.14.1.2.1.0.4062">
+				<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.3.1.2.1" AttributeName="EventSender"/>	
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.14.1.2.1.0.4059">
+				<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.3.1.2.1" AttributeName="EventSender"/>	
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.14.1.2.1.0.4007">
+				<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.3.1.2.1" AttributeName="EventSender"/>	
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.14.1.2.1.0.4052">
+					<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.3.1.2.1" AttributeName="EventSender"/>
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.14.1.2.1.0.4006">
+				<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.3.1.2.1" AttributeName="EventSender"/>	
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.14.1.2.1.0.4008">
+				<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.3.1.2.1" AttributeName="EventSender"/>	
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.14.1.2.1.0.4005">
+				<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.3.1.2.1" AttributeName="EventSender"/>	
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.14.1.2.7.0.40007">
+				<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.3.1.2.1" AttributeName="EventSender"/>		
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.14.1.2.7.0.4000">
+				<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.3.1.2.1" AttributeName="EventSender"/>	
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.14.1.2.7.0.40006">
+				<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.3.1.2.1" AttributeName="EventSender"/>	
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.60.2.5.0.60217">
+				<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.3.1.2.1" AttributeName="EventSender"/>	
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.14.1.3.2.0.1006">
+				<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.3.1.2.1" AttributeName="EventSender"/>	
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.14.1.3.2.1006">
+				<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.3.1.2.1" AttributeName="EventSender"/>		
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.14.1.3.2.0.1010">
+				<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.3.1.2.1" AttributeName="EventSender"/>	
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.14.1.3.2.1010">
+				<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.3.1.2.1" AttributeName="EventSender"/>	
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.14.1.3.3.0.1003">
+				<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.3.1.2.1" AttributeName="EventSender"/>	
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.14.1.3.10.0.1012">
+				<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.3.1.2.1" AttributeName="EventSender"/>	
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.14.1.3.11.0.1004">
+				<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.3.1.2.1" AttributeName="EventSender"/>	
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.14.1.3.11.0.1005">
+				<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.3.1.2.1" AttributeName="EventSender"/>		
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.14.1.3.11.0.1011">
+				<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.3.1.2.1" AttributeName="EventSender"/>	
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.14.1.3.14.0.1007">
+				<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.3.1.2.1" AttributeName="EventSender"/>	
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.14.1.3.15.0.1008">
+					<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.3.1.2.1" AttributeName="EventSender"/>
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.60.2.6.60216">
+					<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.3.1.2.1" AttributeName="EventSender"/>
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.60.2.6.6015">
+				<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.3.1.2.1" AttributeName="EventSender"/>	
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.60.2.7.6016">
+				<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.3.1.2.1" AttributeName="EventSender"/>	
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.60.2.7.60218">
+				<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.3.1.2.1" AttributeName="EventSender"/>	
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.60.2.7.6014">
+				<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.3.1.2.1" AttributeName="EventSender"/>	
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.14.1.8.1.1.12.1.0.2.50103">
+				<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.3.1.2.1" AttributeName="EventSender"/>	
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.14.1.8.1.1.12.1.0.2.50111">
+				<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.3.1.2.1" AttributeName="EventSender"/>	
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.14.1.8.1.1.13.1.0.2.0.50104">
+				<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.3.1.2.1" AttributeName="EventSender"/>	
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.14.1.8.1.1.18.1.3.5016">
+				<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.3.1.2.1" AttributeName="EventSender"/>	
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.2.1.10.18.15.0.1">
+				<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.3.1.2.1" AttributeName="EventSender"/>	
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.2.1.26.0.2">
+				<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.3.1.2.1" AttributeName="EventSender"/>	
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.11.0.40000">
+				<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.3.1.2.1" AttributeName="EventSender"/>
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.11.0.40001">
+				<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.3.1.2.1" AttributeName="EventSender"/>	
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.11.0.2">
+					<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.3.1.2.1" AttributeName="EventSender"/>
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.11.0.3">
+					<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.3.1.2.1" AttributeName="EventSender"/>
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.11.0.40022">
+					<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.3.1.2.1" AttributeName="EventSender"/>
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.11.0.40004">
+				<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.3.1.2.1" AttributeName="EventSender"/>	
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.11.0.40012">
+					<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.3.1.2.1" AttributeName="EventSender"/>
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.11.0.40013">
+					<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.3.1.2.1" AttributeName="EventSender"/>
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.11.0.40010">
+					<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.3.1.2.1" AttributeName="EventSender"/>
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.11.0.40011">
+				<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.3.1.2.1" AttributeName="EventSender"/>	
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.11.0.40014">
+				<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.3.1.2.1" AttributeName="EventSender"/>	
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.2.1.1.0.1">
+				<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.3.1.2.1" AttributeName="EventSender"/>	
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.2.1.1.0.2">
+				<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.3.1.2.1" AttributeName="EventSender"/>	
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.14.1.2.3.0.4081">
+				<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.3.1.2.1" AttributeName="EventSender"/>	
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.14.1.3.6.0.10004">
+					<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.3.1.2.1" AttributeName="EventSender"/>
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.14.1.3.6.0.10005">
+					<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.3.1.2.1" AttributeName="EventSender"/>
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.14.1.3.6.0.10006">
+					<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.3.1.2.1" AttributeName="EventSender"/>
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.14.1.3.6.0.10007">
+				<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.3.1.2.1" AttributeName="EventSender"/>	
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.14.1.3.6.0.1014">
+				<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.3.1.2.1" AttributeName="EventSender"/>	
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.14.1.3.6.0.1015">
+				<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.3.1.2.1" AttributeName="EventSender"/>	
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.14.1.3.11.0.10001">
+				<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.3.1.2.1" AttributeName="EventSender"/>	
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.14.1.3.11.0.10009">
+				<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.3.1.2.1" AttributeName="EventSender"/>	
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.14.1.3.11.2.1.2.1.0.1">
+				<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.3.1.2.1" AttributeName="EventSender"/>	
+			</AlarmTrapOidAS>
+			
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.14.1.7.3.2.0.50002">
+				<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.3.1.2.1" AttributeName="EventSender"/>	
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.14.1.7.13.2.0.1">
+				<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.3.1.2.1" AttributeName="EventSender"/>	
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.14.1.7.13.2.0.2">
+					<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.3.1.2.1" AttributeName="EventSender"/>
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.14.1.3.2.10000">
+					<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.3.1.2.1" AttributeName="EventSender"/>
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.14.1.3.2.10024">
+				<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.3.1.2.1" AttributeName="EventSender"/>	
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.14.1.3.2.10025">
+				<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.3.1.2.1" AttributeName="EventSender"/>	
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.14.1.3.2.10026">
+				<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.3.1.2.1" AttributeName="EventSender"/>	
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.14.1.3.2.10027">
+				<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.3.1.2.1" AttributeName="EventSender"/>		
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.14.1.3.2.1013">
+				<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.3.1.2.1" AttributeName="EventSender"/>	
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.14.1.7.16.2.1.2.0.50001">
+				<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.3.1.2.1" AttributeName="EventSender"/>	
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.14.1.7.16.6.1.0.50004">
+				<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.3.1.2.1" AttributeName="EventSender"/>	
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.14.1.7.16.6.1.0.50005">
+				<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.3.1.2.1" AttributeName="EventSender"/>	
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.14.1.7.16.6.1.0.50006">
+				<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.3.1.2.1" AttributeName="EventSender"/>	
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.14.1.7.16.5.1.2.0.50003">
+					<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.3.1.2.1" AttributeName="EventSender"/>
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.60.2.6.6017">
+			<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.3.1.2.1" AttributeName="EventSender"/>
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.60.2.6.0.6016">				
+			<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.3.1.2.1" AttributeName="EventSender"/>	
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.60.2.7.6018">
+			<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.3.1.2.1" AttributeName="EventSender"/>
+			</AlarmTrapOidAS>
+			
+			<AlarmTrapOidAS OID=".1.3.6.1.4.1.193.14.1.1.3.0.3012">
+			<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.3.1.2.1" AttributeName="EventSender"/>
+			</AlarmTrapOidAS>	
+		</SourceTypeAS>	
+		</AlarmSupervision>
+	<Synchronization>
+		<SourceTypeSync SourceType="AXD">
+		
+		    <MibTypeSync MibType="IFMIB">	
+		    <AttributeOid OID=".1.3.6.1.2.1.2.2.1.1" AttributeName="ifIndex"/>
+			<AttributeOid OID=".1.3.6.1.2.1.2.2.1.7" AttributeName="ifAdminStatus"/>
+			<AttributeOid OID=".1.3.6.1.2.1.2.2.1.8" AttributeName="ifOperStatus"/>
+            <AttributeOid OID=".1.3.6.1.2.1.31.1.1.1.1" AttributeName="ifname"/>
+			<AttributeOid OID=".1.3.6.1.2.1.2.2.1.2" AttributeName="ifdesc"/>	
+            </MibTypeSync>		
+             
+             <MibTypeSync MibType="AXDMIB">
+             <AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.3.2.2.3.1.4" AttributeName="EventType"/>
+			<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.3.1.1.1.1" AttributeName="EventIndex"/>
+			<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.3.1.2.1" AttributeName="EventSender"/>
+			<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.3.2.2.3.1.9" AttributeName="CurrentAlarmAddData"/>
+			<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.3.2.2.3.1.6" AttributeName="axdperceivedSeverity"/>
+			<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.3.2.2.3.1.8" AttributeName="AlarmInformation"/>
+			<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.3.2.2.3.1.10" AttributeName="ProbableCause"/>
+			<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.3.2.2.3.1.2" AttributeName="SpecificProblem"/>
+			<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.3.2.2.3.1.5" AttributeName="AlarmCause"/>
+			<AttributeOid OID=".1.3.6.1.4.1.193.14.1.1.3.2.2.3.1.7" AttributeName="AlarmTime"/>
+		</MibTypeSync>
+			
+     </SourceTypeSync>
+	</Synchronization>
+	
+	<FMAlarmTable>
+		<SourceTypeAT SourceType="AXD">
+			<AlarmTrapOidAT OID=".1.3.6.1.2.1.2.2.1.7">
+				<AdditionalAttribute AttributeName="AttributeMapping" Value="1:TheAdminstrative State of the Interface is up,2:The Adminstrative State ofthe Interface is down,3:The Adminstrative State ofthe Interface is testing"/>
+			</AlarmTrapOidAT>
+			<AlarmTrapOidAT OID=".1.3.6.1.2.1.2.2.1.8">
+				<AdditionalAttribute AttributeName="AttributeMapping" Value="1:The operational Stateofthe Interface is up,2:The operational Stateofthe Interface is down,3:The operational Stateofthe Interface is testing,4:The operational Stateofthe Interface is unknown,5:The operational Stateofthe Interface is dormant,6:The operational Stateofthe Interface is notPresent,7:The operational Stateofthe Interface is lowerLayerDown"/>
+			</AlarmTrapOidAT>
+						<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.3.1.1.18">
+				<AdditionalAttribute AttributeName="AttributeMapping" Value = "1:The PCH Operation create ,2:The PCH Operation delete,3:The PCH Operation modifyBw,4:The PCH Operation block,5:The PCH Operation unblock"/>
+			</AlarmTrapOidAT>
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.3.1.1.13">
+				<AdditionalAttribute AttributeName="AttributeMapping " Value="1:The loopback OAM cell was looped back at segment end point,2:The loopback OAM cell was looped back at the connection endToEnd point,3:The loopback OAM cell was looped back at specified location"/>
+			</AlarmTrapOidAT>
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.3.1.1.14">
+				<AdditionalAttribute AttributeName="AttributeMapping" Value="1:The loopback was successful,2:The loopback was un successful"/>
+			</AlarmTrapOidAT>
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.3.1.1.15">
+				<AdditionalAttribute AttributeName="AttributeMapping" Value ="1:OAM Operation issetSegmentEndPoint,2:OAM Operation is clearSegmentEndPoint;,3:OAM Operation is setCcSinkLinkSide,4:OAM Operation is clearCcSinkLinkSide,5:OAM Operation is setCcSourceLinkSide,6:OAM Operation is clearCcSourceLinkSide,7:OAM Operation is setCcSinkCoreSide,8:OAM Operation is clearCcSinkCoreSide.9:OAM Operation is setCcSourceCoreSide,10:OAM Operation is clearCcSourceCoreSide,11:OAM Operation is inbandCcStatusChange,12:OAM Operation is setPmSinkLinkSide,13:OAM Operation is clearPmSinkLinkSide,14:OAM Operation is setPmSourceLinkSide:,15:OAM Operation is clearPmSourceLinkSide,16:OAM Operation is setPmSinkCoreSide,17:OAM Operation is clearPmSinkCoreSide,
+                                                            18:OAM Operation is setPmSourceCoreSide,19:OAM Operation is clearPmSourceCoreSide,20:OAM Operation is inbandPmStatusChange,21:OAM Operation is setCcInbandSinkLinkSide,22:OAM Operation is clearCcInbandSinkLinkSide,23:OAM Operation is setCcInbandSourceLinkSide,24:OAM Operation is clearCcInbandSourceLinkSide,25:OAM Operation is setCcInbandSinkCoreSide,26:OAM Operation is clearCcInbandSinkCoreSide,27:OAM Operation is setCcInbandSourceCoreSide,28:OAM Operation is clearCcInbandSourceCoreSide,29:OAM Operation is setPmInbandSinkLinkSide,30:OAM Operation is clearPmInbandSinkLinkSide,31:OAM Operation is setPmInbandSourceLinkSide,32:OAM Operation is clearPmInbandSourceLinkSide,33:OAM Operation is setPmInbandSinkCoreSide,34:OAM Operation is clearPmInbandSinkCoreSide,35:OAM Operation is setPmInbandSourceCoreSide,36:OAM Operation isclearPmInbandSourceCoreSide,37:OAM Operation is setCcPreventInband,38:OAM Operation is clearCcPreventInband,
+                                                            39:OAM Operation is setPmPreventInband,40:OAM Operation is clearPmPreventInband,41:OAM Operation is setAisRdiMonitoring,42:OAM Operation is clearAisRdiMonitoring"/>
+			</AlarmTrapOidAT>
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.3.1.1.16">
+				<AdditionalAttribute AttributeName="AttributeMapping" Value ="1:OAM operation was successful,2:OAM operation was un successful"/>
+			</AlarmTrapOidAT>
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.3.1.1.22">
+				<AdditionalAttribute AttributeName="AttributeMapping" Value ="1:Fault is end2endAisLinkSide,2:Fault is end2endRdiLinkSide,3:Fault is end2endAisCoreSide,4:Fault is end2endRdiCoreSide,5:Fault is segmentAisLinkSide,6:Fault is segmentRdiLinkSide,7:Fault is segmentAisCoreSide,8:Fault is segmentRdiCoreSide"/>
+			</AlarmTrapOidAT>
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.4.1.6.8">
+				<AdditionalAttribute AttributeName="AttributeMapping" Value ="0:The current status of firewall is idle,1:The last action performed with the firewall is switch,2:The last action performed with the firewall is automaticRollback,3:The last action performed with the firewall is manualRollback,4:The last action performed with the firewall is activate"/>
+			</AlarmTrapOidAT>
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.1.6.4.2">
+				<AdditionalAttribute AttributeName="AttributeMapping" Value = "0:The status of the backup functionality is idle,1:The status of the backup functionality is inProgress,2:The status of the backup functionality is ready,3:The status of the backup functionality is prohibited"/>
+			</AlarmTrapOidAT>
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.1.6.4.3">
+				<AdditionalAttribute AttributeName="AttributeMapping" Value ="0:BUResult= OK,1:BUResult=Input Error,2:BUResult=Execution Error,3:BUResult=undeterminable"/>
+			</AlarmTrapOidAT>			
+			<AlarmTrapOidAT OID="..1.3.6.1.4.1.193.14.1.1.6.1.6.1">
+				<AdditionalAttribute AttributeName="AttributeMapping" Value ="0:The optDmOpResult is idle,1:The optDmOpResult is inProgress,2:The optDmOpResult is ready"/>
+			</AlarmTrapOidAT>
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.1.6.5.1.3">
+				<AdditionalAttribute AttributeName="AttributeMapping" Value ="0:The status on the patch functionality is idle,2:The status on the patch functionality is installing"/>
+			</AlarmTrapOidAT>
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.1.6.3.1.3">
+				<AdditionalAttribute AttributeName="AttributeMapping" Value ="1:The status on the upgrade functionality is  Idle,2:The status on the upgrade functionality is Installing,3:The status on the upgrade functionality is Installed,4:The status on the upgrade functionality is Activating,5:The status on the upgrade functionality is activated,6:The status on the upgrade functionality is committing,7:The status on the upgrade functionality is committed,8:The status on the upgrade functionality is RollingBack,9:The status on the upgrade functionality is Rolledback"/>
+			</AlarmTrapOidAT>
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.8.1.1.8.1.9.1.2">
+				<AdditionalAttribute AttributeName="AttributeMapping" Value ="1:The BGP peer connection state is Idle,2:The BGP peer connection state is Connect,3:The BGP peer connection state is Active,4:The BGP peer connection state is OpenSent,5:The BGP peer connection state is OpenConfirm,6:The BGP peer connection state is Established"/>
+			</AlarmTrapOidAT>
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.8.1.1.9.1.10.1.6">
+				<AdditionalAttribute AttributeName="AttributeMapping" Value ="1:down,2:attempt,3:init,4:twoway,5:ExchangeStart,6:exchange,7:Loading,8:Full"/>
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.8.1.1.10.1.1.6.1.1.2">
+				<AdditionalAttribute AttributeName="AttributeMapping" Value ="1:The state of the adjacency is down,2:The state of the adjacency is initializing,3:The state of the adjacency is up,4:The state of the adjacency is failed"/>
+			</AlarmTrapOidAT>
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.60.2.7.4.1">
+				<AdditionalAttribute AttributeName="AttributeMapping" Value ="1:The state of the permanently looped timeslots for LoopBack is failure,2:The state of the permanently looped timeslots for LoopBack is success"/>
+			</AlarmTrapOidAT>
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.8.1.1.12.1.1.7">
+				<AdditionalAttribute AttributeName="AttributeMapping" Value ="1:ProbeFailure,2:testFailure"/>
+			</AlarmTrapOidAT>
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.8.1.1.12.1.1.3.1.1">
+			<AdditionalAttribute AttributeName="AttributeMapping" Value ="1:enabled,2:disabled"/>
+			</AlarmTrapOidAT>
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.8.1.1.13.1.1.7">
+			<AdditionalAttribute AttributeName="AttributeMapping" Value ="1:pathChange,2:testFailure,3:testCompletion"/>
+			</AlarmTrapOidAT>
+			<AlarmTrapOidAT OID=".1.3.6.1.2.1.26.2.1.1.7">
+			<AdditionalAttribute AttributeName="AttributeMapping" Value ="1:other,2:unknown,3:noJabber,4:jabbering"/>
+			</AlarmTrapOidAT>
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.60.2.5.2.1">
+			<AdditionalAttribute AttributeName="AttributeMapping" Value ="1:Link communication is down,2:Link communication is up"/>
+			</AlarmTrapOidAT>
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.1.2.2.2.1.14">
+			<AdditionalAttribute AttributeName="AttributeMapping" Value = "1:idle,2:executing,3:abort,4:abortOk,5:doneOk,6:doneFailure"/>
+			</AlarmTrapOidAT>
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.1.5.6.1">
+			<AdditionalAttribute AttributeName="AttributeMapping" Value = "1:Operation type when security data is changed=new,2:Operation type when security data is changed=changed,3:Operation type when security data is changed=deleted"/>
+			</AlarmTrapOidAT>
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.1.4.3.4">
+			<AdditionalAttribute AttributeName="AttributeMapping" Value ="1:The mesurement Error Code=unSpecified,2:The mesurement Error Code=noSuchObject,3:The mesurement Error Code=hardwareFault,4:The mesurement Error Code=hardwareFault,5:The mesurement Error Code=noDataAvailable,6:The mesurement Error Code=other,7:The mesurement Error Code=noSuchName,8:The mesurement Error Code=badOid"/>
+			</AlarmTrapOidAT>
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.1.4.3.7">
+			<AdditionalAttribute AttributeName="AttributeMapping" Value ="1:echuck,2:eclosed,3:econn,4:ehost,5:elogin,6:enotbinary,7:epath,8:etype,9:euser,10:eunknown"/>
+			</AlarmTrapOidAT>
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.7.13.1.4.1.8">
+			<AdditionalAttribute AttributeName="AttributeMapping" Value ="1:If AdminStatus is=UP,2:If AdminStatus is=Down,3:If AdminStatus is=TESTING"/>
+			</AlarmTrapOidAT>
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.7.16.5.1.1.6.1.19">
+			<AdditionalAttribute AttributeName="AttributeMapping" Value = "1:An event reporting that operational state of the RSVP rsvpIfOperStatus=up,2:An event reporting that operational state of the RSVP rsvpIfOperStatus=down,3:An event reporting that operational state of the RSVP rsvpIfOperStatus=grrestart"/>
+			</AlarmTrapOidAT>
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.7.16.2.1.1.1.1.3">
+			<AdditionalAttribute AttributeName="AttributeMapping" Value = "1:An event reporting that an interface state  has changed to up,2:An event reporting that an interface state  has changed to down"/>
+			</AlarmTrapOidAT>
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.7.3.1.3.1.1.8">
+			<AdditionalAttribute AttributeName="AttributeMapping" Value = "1:An event reporting that the LDP session state,is changed to or from operational and mplsLdpSesState nonexistent,
+                                                              2:An event reporting that the LDP session state,is changed to or from operational and  mplsLdpSesState initialized,
+															  3:An event reporting that the LDP session state,is changed to or from operational and mplsLdpSesState openrec,
+															  4:An event reporting that the LDP session state,is changed to or from operational and mplsLdpSesState opensent,
+															  5:An event reporting that the LDP session state,is changed to or from operational and mplsLdpSesState operational"/>
+															  	 </AlarmTrapOidAT>
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.3.11.1.3">
+			<AdditionalAttribute  AttributeName="AttributeMapping" Value = "1:create,2:delete,3:restart,4:reroute"/>
+			 </AlarmTrapOidAT>
+			 <AlarmTrapOidAT OID=".1.3.6.1.4.1.193.11.1.1.1.1.1.4">
+			 <AdditionalAttribute AttributeName="AttributeMapping" Value = "1:manual,2:automatic"/>
+			  </AlarmTrapOidAT>
+			  <AlarmTrapOidAT OID=".1.3.6.1.4.1.353.2.4.1.1.3">
+			  <AdditionalAttribute AttributeName="AttributeMapping" Value ="1:Unknown,2:End2EndUp,3:End2EndDown,4:localUpEnd2endUnknown,5:localDown"/>
+			  </AlarmTrapOidAT>
+			  
+			<AlarmTrapOidAT OID=".1.3.6.1.6.3.1.1.5.1">
+				<SpecificProblem AttributeName="SpecificProblem" Value="Cold restart"/>
+				<ProbableCause AttributeName="ProbableCause" Value="SNMP Generic"/>
+				<EventType AttributeName="EventType" Value="5"/>
+				<PerceivedSeverity AttributeName="PerceivedSeverity" Value="INDETERMINATE"/>
+				<NotificationType AttributeName="NotificationType" Value="ERROR"/>
+				<AdditionalAttribute AttributeName="additionalText" Value="A coldStart trap signifies that the sending protocol entity is reinitializing itself such that the agent's configuration or the protocol entity implementation may be altered."/>
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.6.3.1.1.5.2">
+				<SpecificProblem AttributeName="SpecificProblem" Value="Warm restart"/>
+				<ProbableCause AttributeName="ProbableCause" Value="SNMP Generic"/>
+				<EventType AttributeName="EventType" Value="5"/>
+				<PerceivedSeverity AttributeName="PerceivedSeverity" Value="INDETERMINATE"/>
+				<NotificationType AttributeName="NotificationType" Value="ERROR"/>
+				<AdditionalAttribute AttributeName="additionalText" Value="A warmStart trap signifies that the sending protocol entity is reinitializing itself such that neither the agent configuration nor the protocol entity implementation is altered."/>
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.6.3.1.1.5.3">
+				<SpecificProblem AttributeName="SpecificProblem" Value="Link Down"/>
+				<ProbableCause AttributeName="ProbableCause" Value="SNMP Generic"/>
+				<EventType AttributeName="EventType" Value="1"/>
+				<PerceivedSeverity AttributeName="PerceivedSeverity" Value="MAJOR"/>
+				<NotificationType AttributeName="NotificationType" Value="ALARM"/>
+				<AdditionalAttribute AttributeName="additionalText" Value="A linkDown trap signifies that the SNMPv2 entity, acting in an agent role,has detected that the ifOperStatus object for one of its communication links is about to enter the down state from some other state"/>
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.6.3.1.1.5.4">
+				<SpecificProblem AttributeName="SpecificProblem" Value="Link Down"/>
+				<ProbableCause AttributeName="ProbableCause" Value="SNMP Generic"/>
+				<EventType AttributeName="EventType" Value="1"/>
+				<PerceivedSeverity AttributeName="PerceivedSeverity" Value="MAJOR"/>
+				<NotificationType AttributeName="NotificationType" Value="ALARM"/>
+				<AdditionalAttribute AttributeName="additionalText" Value="A linkUp trap signifies that the SNMPv2 entity, acting in an agent role,has detected that the ifOperStatus object for one of its communication links is about to enter the down state from some other state"/>
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.6.3.1.1.5.5">
+				<SpecificProblem AttributeName="SpecificProblem" Value="Authentication Failure"/>
+				<ProbableCause AttributeName="ProbableCause" Value="SNMP Generic"/>
+				<EventType AttributeName="EventType" Value="3"/>
+				<PerceivedSeverity AttributeName="PerceivedSeverity" Value="INDETERMINATE"/>
+				<NotificationType AttributeName="NotificationType" Value="ERROR"/>
+				<AdditionalAttribute AttributeName="additionalText" Value="An authenticationFailure trap signifies that the sending protocol entity is the addressee of a protocol message that is not properly authenticated."/>
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.6.3.1.1.5.6">
+				<SpecificProblem AttributeName="SpecificProblem" Value="egpNeighborLoss"/>
+				<ProbableCause AttributeName="ProbableCause" Value="SNMP Generic"/>
+				<EventType AttributeName="EventType" Value="3"/>
+				<PerceivedSeverity AttributeName="PerceivedSeverity" Value="INDETERMINATE"/>
+				<NotificationType AttributeName="NotificationType" Value="ERROR"/>
+				<AdditionalAttribute AttributeName="additionalText" Value="An egpNeighborLoss trap signifies that an EGP neighbor for whom the sending protocol entity was an EGP peer has been marked down and the peer relationship no longer obtains."/>
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.6.3.1.1.5.1.0.1">
+				<SpecificProblem AttributeName="SpecificProblem" Value="Cold restart"/>
+				<ProbableCause AttributeName="ProbableCause" Value="305"/>
+				<EventType AttributeName="EventType" Value="2"/>
+				<PerceivedSeverity AttributeName="PerceivedSeverity" Value="INDETERMINATE"/>
+				<NotificationType AttributeName="NotificationType" Value="ERROR"/>
+				<AdditionalAttribute AttributeName="additionalText" Value="A coldStart trap signifies that the sending protocol entity is reinitializing itself such that the agent's configuration or the protocol entity implementation may be altered."/>
+			</AlarmTrapOidAT>
+			<AlarmTrapOidAT OID=".1.3.6.1.6.3.1.1.5.2.1.1">
+				<SpecificProblem AttributeName="SpecificProblem" Value="Warm restart"/>
+				<ProbableCause AttributeName="ProbableCause" Value="305"/>
+				<EventType AttributeName="EventType" Value="2"/>
+				<PerceivedSeverity AttributeName="PerceivedSeverity" Value="INDETERMINATE"/>
+				<NotificationType AttributeName="NotificationType" Value="ERROR"/>
+				<AdditionalAttribute AttributeName="additionalText" Value="A warmStart trap signifies that the sending protocol entity is reinitializing itself such that neither the agent configuration nor the protocol entity implementation is altered."/>
+			</AlarmTrapOidAT>
+			<AlarmTrapOidAT OID=".1.3.6.1.6.3.1.1.5.5.4.1">
+				<SpecificProblem AttributeName="SpecificProblem" Value="Authentication Failure"/>
+				<ProbableCause AttributeName="ProbableCause" Value="Authentication Failure"/>
+				<EventType AttributeName="EventType" Value="18"/>
+				<PerceivedSeverity AttributeName="PerceivedSeverity" Value="INDETERMINATE"/>
+				<NotificationType AttributeName="NotificationType" Value="ERROR"/>
+				<AdditionalAttribute AttributeName="additionalText" Value="An authenticationFailure trap signifies that the sending protocol entity is the addressee of a protocol message that is not properly authenticated."/>
+			</AlarmTrapOidAT>
+			<AlarmTrapOidAT OID=".1.3.6.1.6.3.1.1.5.6.5.1">
+				<SpecificProblem AttributeName="SpecificProblem" Value="egpNeighborLoss"/>
+				<ProbableCause AttributeName="ProbableCause" Value="305"/>
+				<EventType AttributeName="EventType" Value="2"/>
+				<PerceivedSeverity AttributeName="PerceivedSeverity" Value="INDETERMINATE"/>
+				<NotificationType AttributeName="NotificationType" Value="ERROR"/>
+				<AdditionalAttribute AttributeName="additionalText" Value="An egpNeighborLoss trap signifies that an EGP neighbor for whom the sending protocol entity was an EGP peer has been marked down and the peer relationship no longer obtains."/>
+			</AlarmTrapOidAT>
+					<!-- IF MIB -->
+			<AlarmTrapOidAT OID=".1.3.6.1.6.3.1.1.5.3.2.1">
+				<SpecificProblem AttributeName="SpecificProblem" Value="Link Down"/>
+				<ProbableCause AttributeName="ProbableCause" Value="305"/>
+				<EventType AttributeName="EventType" Value="2"/>
+				<PerceivedSeverity AttributeName="PerceivedSeverity" Value="MAJOR"/>
+				<NotificationType AttributeName="NotificationType" Value="ALARM"/>
+				<AdditionalAttribute AttributeName="additionalText" Value="A linkDown trap signifies that the SNMPv1 entity, acting in an agent role,has detected that the ifOperStatus object for one of its communication links is about to enter the down state from some other state"/>
+			</AlarmTrapOidAT>
+			<AlarmTrapOidAT OID=".1.3.6.1.6.3.1.1.5.4.3.1">
+				<SpecificProblem AttributeName="SpecificProblem" Value="Link Down"/>
+				<ProbableCause AttributeName="ProbableCause" Value="305"/>
+				<EventType AttributeName="EventType" Value="2"/>
+				<PerceivedSeverity AttributeName="PerceivedSeverity" Value="CLEARED"/>
+				<NotificationType AttributeName="NotificationType" Value="ALARM"/>
+				<AdditionalAttribute AttributeName="additionalText" Value="A linkDown trap signifies that the SNMPv1 entity, acting in an agent role,has detected that the ifOperStatus object for one of its communication links is about to enter the down state from some other state"/>
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.6.0.5501">
+				<EventType AttributeName="EventType" Value="4"/>
+				<NotificationType AttributeName="NotificationType" Value="ALARM"/>
+				<ProbableCause AttributeName="ProbableCause" Value="Adapter Error"/>
+				<SpecificProblem AttributeName="SpecificProblem" Value="Equipment Alarm"/>
+				<PerceivedSeverity AttributeName="PerceivedSeverity" Value="CRITICAL"/>
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.2.15.1.1">
+				<EventType AttributeName="EventType" Value="1"/>
+				<NotificationType AttributeName="NotificationType" Value="ALARM"/>
+				<ProbableCause AttributeName="ProbableCause" Value="Communications System Failure"/>
+				<SpecificProblem AttributeName="SpecificProblem" Value="Communications Alarm"/>
+				<PerceivedSeverity AttributeName="PerceivedSeverity" Value="CRITICAL"/>
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.353.5.7.1.2.0.1">
+				<NotificationType AttributeName="NotificationType" Value="ALARM"/>
+				<SpecificProblem AttributeName="SpecificProblem" Value="imaFailureAlarm"/>
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.2.14.1.6">
+				<EventType AttributeName="EventType" Value="1"/>
+				<NotificationType AttributeName="NotificationType" Value="ALARM"/>
+				<ProbableCause AttributeName="ProbableCause" Value="Communications Subsystem Failure"/>
+				<SpecificProblem AttributeName="SpecificProblem" Value="Communications Alarm"/>
+				<PerceivedSeverity AttributeName="PerceivedSeverity" Value="MAJOR"/>
+			</AlarmTrapOidAT>
+			
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.7.3.2.0.5001">
+				<EventType AttributeName="EventType" Value="1"/>
+				<NotificationType AttributeName="NotificationType" Value="ALARM"/>
+				<ProbableCause AttributeName="ProbableCause" Value="Communications Protocol Error"/>
+				<SpecificProblem AttributeName="SpecificProblem" Value="Communications Alarm"/>
+				<PerceivedSeverity AttributeName="PerceivedSeverity" Value="WARNING"/>
+			</AlarmTrapOidAT>
+			
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.2.14.1.5">
+				<EventType AttributeName="EventType" Value="4"/>
+				<NotificationType AttributeName="NotificationType" Value="ALARM"/>
+				<ProbableCause AttributeName="ProbableCause" Value="Equipment Malfunction"/>
+				<SpecificProblem AttributeName="SpecificProblem" Value="Equipment Alarm"/>
+				<PerceivedSeverity AttributeName="PerceivedSeverity" Value="CRITICAL"/>
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.3.1.0.10023">
+				<NotificationType AttributeName="NotificationType" Value="ERROR"/>
+				<SpecificProblem AttributeName="SpecificProblem" Value="pchConnectFailEvent"/>
+				<EventType AttributeName="EventType" Value="1"/>
+				<PerceivedSeverity AttributeName="PerceivedSeverity" Value="MAJOR"/>
+				<ProbableCause AttributeName="ProbableCause" Value="566"/>	
+			 </AlarmTrapOidAT>
+			
+				<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.3.1.0.10003">
+					<NotificationType AttributeName="NotificationType" Value="ERROR"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="pchLoopbackResultEvent"/>
+					<ProbableCause AttributeName="ProbableCause" Value="0"/>
+					<EventType AttributeName="EventType" Value="2"/>
+					<PerceivedSeverity AttributeName="PerceivedSeverity" Value="MINOR"/>
+				</AlarmTrapOidAT>
+			
+				<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.3.1.0.10008">
+					<NotificationType AttributeName="NotificationType" Value="ERROR"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="pchOamResultEvent"/>
+					<ProbableCause AttributeName="ProbableCause" Value="0"/>
+					<EventType AttributeName="EventType" Value="2"/>
+					<PerceivedSeverity AttributeName="PerceivedSeverity" Value="MINOR"/>
+				</AlarmTrapOidAT>
+				
+				<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.3.1.0.10002">
+					<NotificationType AttributeName="NotificationType" Value="ERROR"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="pchScheduledConnectionEvent"/>
+					<ProbableCause AttributeName="ProbableCause" Value="0"/>
+					<EventType AttributeName="EventType" Value="2"/>
+					<PerceivedSeverity AttributeName="PerceivedSeverity" Value="MINOR"/>	
+			 	</AlarmTrapOidAT>
+			
+				<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.3.1.0.10022">
+					<NotificationType AttributeName="NotificationType" Value="ERROR"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="pchVpVcFaultIndicationEvent"/>
+					<ProbableCause AttributeName="ProbableCause" Value="0"/>
+					<EventType AttributeName="EventType" Value="2"/>
+					<PerceivedSeverity AttributeName="PerceivedSeverity" Value="MINOR"/>	
+				</AlarmTrapOidAT>
+			
+				<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.3.13.0.30002">
+					<NotificationType AttributeName="NotificationType" Value="ERROR"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="croFileTransferredEvent"/>
+					<ProbableCause AttributeName="ProbableCause" Value="0"/>
+					<EventType AttributeName="EventType" Value="2"/>
+					<PerceivedSeverity AttributeName="PerceivedSeverity" Value="MINOR"/>
+				</AlarmTrapOidAT>
+				
+				<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.3.1.0.1000">
+					<NotificationType AttributeName="NotificationType" Value="ALARM"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="pchScheduledConnectionAlarm"/>
+			 	</AlarmTrapOidAT>
+			
+				<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.3.1.0.1001">
+					<NotificationType AttributeName="NotificationType" Value="ALARM"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="pchVpVcAlarm"/>
+					
+				</AlarmTrapOidAT>
+			
+				<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.3.13.0.3003">
+					<NotificationType AttributeName="NotificationType" Value="ALARM"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="croLowFileSpaceAlarm"/>
+					
+				</AlarmTrapOidAT>
+				
+				<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.3.13.0.3008">
+					<NotificationType AttributeName="NotificationType" Value="ALARM"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="croHighFileSpaceAlarm"/>
+					
+			 	</AlarmTrapOidAT>
+			
+				<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.3.13.0.3009">
+					<NotificationType AttributeName="NotificationType" Value="ALARM"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="croFullFileSpaceAlarm"/>
+					<ProbableCause AttributeName="ProbableCause" Value=""/>
+					<EventType AttributeName="EventType" Value=""/>
+					<PerceivedSeverity AttributeName="PerceivedSeverity" Value="MINOR"/>
+				</AlarmTrapOidAT>
+			
+				<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.3.13.0.3010">
+					<NotificationType AttributeName="NotificationType" Value="ALARM"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="croFtpServer1Alarm"/>
+					
+				</AlarmTrapOidAT>
+				
+				<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.3.13.0.3011">
+					<NotificationType AttributeName="NotificationType" Value="ALARM"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="croFtpServer2Alarm"/>
+					
+			 	</AlarmTrapOidAT>
+			
+				<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.4.0.20007">
+					<NotificationType AttributeName="NotificationType" Value="ALARM"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="sysFileSynchronizationEndEvent"/>
+					<ProbableCause AttributeName="ProbableCause" Value="0"/>
+					<EventType AttributeName="EventType" Value="2"/>
+					<PerceivedSeverity AttributeName="PerceivedSeverity" Value="CLEARED"/>
+				</AlarmTrapOidAT>
+			
+				<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.4.0.20008">
+					<NotificationType AttributeName="NotificationType" Value="ERROR"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="sysFileSynchronizationFailedEvents"/>
+					<ProbableCause AttributeName="ProbableCause" Value="0"/>
+					<EventType AttributeName="EventType" Value="2"/>
+					<PerceivedSeverity AttributeName="PerceivedSeverity" Value="MINOR"/>
+				</AlarmTrapOidAT>
+				
+				<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.4.0.20006">
+					<NotificationType AttributeName="NotificationType" Value="ALARM"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="sysFileSynchronizationStartEvent"/>
+					<ProbableCause AttributeName="ProbableCause" Value="0"/>
+					<EventType AttributeName="EventType" Value="2"/>
+					<PerceivedSeverity AttributeName="PerceivedSeverity" Value="WARNING"/>
+				</AlarmTrapOidAT>
+				
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.4.0.20015">
+					<NotificationType AttributeName="NotificationType" Value="ERROR"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="sysFirewallEvent"/>
+					<ProbableCause AttributeName="ProbableCause" Value="0"/>
+					<EventType AttributeName="EventType" Value="3"/>
+					<PerceivedSeverity AttributeName="PerceivedSeverity" Value="WARNING"/>
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.4.0.20011">
+					<NotificationType AttributeName="NotificationType" Value="ALARM"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="sysIspDestAlarm"/>
+					
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.4.0.20013">
+					<NotificationType AttributeName="NotificationType" Value="ERROR"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="sysIspReportEvent"/>
+					<ProbableCause AttributeName="ProbableCause" Value="0"/>
+					<EventType AttributeName="EventType" Value="3"/>
+					<PerceivedSeverity AttributeName="PerceivedSeverity" Value="WARNING"/>
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.4.0.20014">
+					<NotificationType AttributeName="NotificationType" Value="ALARM"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="sysSmartThresholdAlarm"/>
+					
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.4.2.0.20004">
+					<NotificationType AttributeName="NotificationType" Value="ERROR"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="rcmProcStaCP1Down"/>
+					<ProbableCause AttributeName="ProbableCause" Value="0"/>
+					<EventType AttributeName="EventType" Value="3"/>
+					<PerceivedSeverity AttributeName="PerceivedSeverity" Value="WARNING"/>
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.4.2.0.20002">
+					<NotificationType AttributeName="NotificationType" Value="ERROR"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="rcmProcStaCP1Single"/>
+					<ProbableCause AttributeName="ProbableCause" Value="0"/>
+					<EventType AttributeName="EventType" Value="3"/>
+					<PerceivedSeverity AttributeName="PerceivedSeverity" Value="WARNING"/>
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.4.2.0.20000">
+					<NotificationType AttributeName="NotificationType" Value="ERROR"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="rcmProcStaCP1UpDual"/>
+					<ProbableCause AttributeName="ProbableCause" Value="0"/>
+					<EventType AttributeName="EventType" Value="3"/>
+					<PerceivedSeverity AttributeName="PerceivedSeverity" Value="WARNING"/>
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.4.2.0.20005">
+					<NotificationType AttributeName="NotificationType" Value="ERROR"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="rcmProcStaCP2Down"/>
+					<ProbableCause AttributeName="ProbableCause" Value="0"/>
+					<EventType AttributeName="EventType" Value="3"/>
+					<PerceivedSeverity AttributeName="PerceivedSeverity" Value="WARNING"/>
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.4.2.0.20003">
+					<NotificationType AttributeName="NotificationType" Value="ERROR"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="rcmProcStaCP2Single"/>
+					<ProbableCause AttributeName="ProbableCause" Value="0"/>
+					<EventType AttributeName="EventType" Value="3"/>
+					<PerceivedSeverity AttributeName="PerceivedSeverity" Value="WARNING"/>
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.4.2.0.20001">
+					<NotificationType AttributeName="NotificationType" Value="ERROR"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="rcmProcStaCP2UpDual"/>
+					<ProbableCause AttributeName="ProbableCause" Value="0"/>
+					<EventType AttributeName="EventType" Value="3"/>
+					<PerceivedSeverity AttributeName="PerceivedSeverity" Value="WARNING"/>
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.4.2.0.20011">
+					<NotificationType AttributeName="NotificationType" Value="ERROR"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="rcmSequentialCpRestartEvent"/>
+					<ProbableCause AttributeName="ProbableCause" Value="0"/>
+					<EventType AttributeName="EventType" Value="3"/>
+					<PerceivedSeverity AttributeName="PerceivedSeverity" Value="WARNING"/>
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.4.2.0.2000">
+					<NotificationType AttributeName="NotificationType" Value="ALARM"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="rcmIncompatibilityAlarm"/>
+					
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.4.2.0.2001">
+					<NotificationType AttributeName="NotificationType" Value="ALARM"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="rcmNtpPrimaryUnreachAlarm"/>
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.4.2.0.2002">
+					<NotificationType AttributeName="NotificationType" Value="ALARM"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="rcmNtpSecondaryUnreachAlarm"/>
+					
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.4.2.0.2003">
+					<NotificationType AttributeName="NotificationType" Value="ALARM"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="rcmNtpNotSynchronizedAlarm"/>
+					
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.4.2.0.2004">
+					<NotificationType AttributeName="NotificationType" Value="ALARM"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="rcmSequentialRestartAlarm"/>
+					
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.4.2.0.2009">
+					<NotificationType AttributeName="NotificationType" Value="ALARM"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="rcmSystemClockAlarm"/>
+					
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.1.7.0.30014">
+					<NotificationType AttributeName="NotificationType" Value="ERROR"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="aseBatchExecutedEvent"/>
+					<ProbableCause AttributeName="ProbableCause" Value="0"/>
+					<EventType AttributeName="EventType" Value="2"/>
+					<PerceivedSeverity AttributeName="PerceivedSeverity" Value="WARNING"/>
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.2.6.0.4030">
+					<NotificationType AttributeName="NotificationType" Value="ALARM"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="eqmPduAlarm"/>
+					
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.2.6.0.4031">
+					<NotificationType AttributeName="NotificationType" Value="ALARM"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="eqmFanAlarm"/>
+					
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.2.6.0.4032">
+					<NotificationType AttributeName="NotificationType" Value="ALARM"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="eqmLocAlarm"/>
+					
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.2.6.0.4033">
+					<NotificationType AttributeName="NotificationType" Value="ALARM"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="eqmCustomerDefined1Alarm"/>
+					
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.2.6.0.4034">
+					<NotificationType AttributeName="NotificationType" Value="ALARM"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="eqmCustomerDefined2Alarm"/>
+					
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.2.6.0.4035">
+					<NotificationType AttributeName="NotificationType" Value="ALARM"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="eqmCustomerDefined3Alarm"/>
+					
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.2.6.0.4036">
+					<NotificationType AttributeName="NotificationType" Value="ALARM"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="eqmCustomerDefined4Alarm"/>
+					
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.2.2.0.4003">
+					<NotificationType AttributeName="NotificationType" Value="ALARM"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="atmPhysicalLayerAlarm"/>
+					
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.2.2.0.4004">
+					<NotificationType AttributeName="NotificationType" Value="ALARM"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="atmBufferCongestionAlarm"/>
+					
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.2.3.0.4001">
+					<NotificationType AttributeName="NotificationType" Value="ALARM"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="nsyTraffRefSignalAlarm"/>
+					
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.2.3.0.4017">
+					<NotificationType AttributeName="NotificationType" Value="ALARM"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="nsySynchRefAlarm"/>
+					
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.2.3.0.4018">
+					<NotificationType AttributeName="NotificationType" Value="ALARM"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="nsySynchRefBlockedAlarm"/>
+					
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.2.3.0.4019">
+					<NotificationType AttributeName="NotificationType" Value="ALARM"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="nsySynchNodeHoldoverAlarm"/>
+					
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.2.3.0.4020">
+					<NotificationType AttributeName="NotificationType" Value="ALARM"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="nsySynchNodeNotWorkingAlar"/>
+					
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.2.10.0.4045">
+					<NotificationType AttributeName="NotificationType" Value="ALARM"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="pdh2LinkAlarm"/>
+					
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.2.10.0.4046">
+					<NotificationType AttributeName="NotificationType" Value="ALARM"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="pdh2PathAlarm"/>
+				
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.2.10.0.4047">
+					<NotificationType AttributeName="NotificationType" Value="ALARM"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="pdh2UpperQosAlarm"/>
+				
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.2.10.0.4048">
+					<NotificationType AttributeName="NotificationType" Value="ALARM"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="pdh2LowerQosAlarm"/>
+				
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.2.8.0.4013">
+					<NotificationType AttributeName="NotificationType" Value="ALARM"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="pdh34LinkAlarm"/>
+					
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.2.8.0.4014">
+					<NotificationType AttributeName="NotificationType" Value="ALARM"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="pdh34ObservationAlarm"/>
+					
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.2.8.0.4015">
+					<NotificationType AttributeName="NotificationType" Value="ALARM"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="pdh34UpperQosAlarm"/>
+					
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.2.8.0.4016">
+					<NotificationType AttributeName="NotificationType" Value="ALARM"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="pdh34LowerQosAlarm"/>
+					
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.2.9.0.4049">
+					<NotificationType AttributeName="NotificationType" Value="ALARM"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="pdh45LinkAlarm"/>
+					
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.2.9.0.4053">
+					<NotificationType AttributeName="NotificationType" Value="ALARM"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="pdh45UpperQosAlarm"/>
+					
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.2.9.0.4054">
+					<NotificationType AttributeName="NotificationType" Value="ALARM"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="pdh45LowerQosAlarm"/>
+					
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.1.4.0.30011">
+					<NotificationType AttributeName="NotificationType" Value="ERROR"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="perfMeasErrorEvent"/>
+					<ProbableCause AttributeName="ProbableCause" Value="0"/>
+					<EventType AttributeName="EventType" Value="2"/>
+					<PerceivedSeverity AttributeName="PerceivedSeverity" Value="MAJOR"/>
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.1.4.0.30012">
+					<NotificationType AttributeName="NotificationType" Value="ERROR"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="perfMeasFileTransferErrorEvent"/>
+					<ProbableCause AttributeName="ProbableCause" Value="0"/>
+					<EventType AttributeName="EventType" Value="2"/>
+					<PerceivedSeverity AttributeName="PerceivedSeverity" Value="MAJOR"/>
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.1.4.0.30000">
+					<NotificationType AttributeName="NotificationType" Value="ERROR"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="perfMeasFileTransferredEvent"/>
+					<ProbableCause AttributeName="ProbableCause" Value="0"/>
+					<EventType AttributeName="EventType" Value="2"/>
+					<PerceivedSeverity AttributeName="PerceivedSeverity" Value="WARNING"/>
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.1.4.0.30001">
+					<NotificationType AttributeName="NotificationType" Value="ERROR"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="perfMeasReportEvent"/>
+					<ProbableCause AttributeName="ProbableCause" Value="0"/>
+					<EventType AttributeName="EventType" Value="2"/>
+					<PerceivedSeverity AttributeName="PerceivedSeverity" Value="MINOR"/>
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.1.4.0.30010">
+					<NotificationType AttributeName="NotificationType" Value="ERROR"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="perfMeasurementDeactivatedEvent"/>
+					<ProbableCause AttributeName="ProbableCause" Value="0"/>
+					<EventType AttributeName="EventType" Value="2"/>
+					<PerceivedSeverity AttributeName="PerceivedSeverity" Value="MAJOR"/>
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.1.4.0.3000">
+					<NotificationType AttributeName="NotificationType" Value="ALARM"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="perfMeasurementThresholdReachedAlarm"/>
+					
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.1.4.0.30009">
+					<NotificationType AttributeName="NotificationType" Value="ERROR"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="perfTooManyCountersInTrapEvent"/>
+					<ProbableCause AttributeName="ProbableCause" Value="0"/>
+					<EventType AttributeName="EventType" Value="2"/>
+					<PerceivedSeverity AttributeName="PerceivedSeverity" Value="MAJOR"/>
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.1.4.0.3013">
+					<NotificationType AttributeName="NotificationType" Value="ALARM"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="perfDestinationUnreachableAlarm"/>
+					
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.1.4.0.3014">
+					<NotificationType AttributeName="NotificationType" Value="ALARM"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="perfMeasurementsDisabledAlarm"/>
+				
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.1.5.0.30013">
+					<NotificationType AttributeName="NotificationType" Value="ERROR"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="securityChangedEvent"/>
+					<ProbableCause AttributeName="ProbableCause" Value="0"/>
+					<EventType AttributeName="EventType" Value="18"/>
+					<PerceivedSeverity AttributeName="PerceivedSeverity" Value="MINOR"/>
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.1.5.0.3015">
+					<NotificationType AttributeName="NotificationType" Value="ERROR"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="securityMasterKeyChangedAlarm"/>
+					<ProbableCause AttributeName="ProbableCause" Value="0"/>
+					<EventType AttributeName="EventType" Value="18"/>
+					<PerceivedSeverity AttributeName="PerceivedSeverity" Value="MAJOR"/>
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.1.5.0.3001">
+					<NotificationType AttributeName="NotificationType" Value="ALARM"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="lmsAuthenticationFailureAlarm"/>
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.1.2.0.30008">
+					<NotificationType AttributeName="NotificationType" Value="ERROR"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="stoLogRecordCollectionReplyEvent"/>
+					<ProbableCause AttributeName="ProbableCause" Value="0"/>
+					<EventType AttributeName="EventType" Value="2"/>
+					<PerceivedSeverity AttributeName="PerceivedSeverity" Value="WARNING"/>
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.1.2.0.3004">
+					<NotificationType AttributeName="NotificationType" Value="ALARM"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="stoWrapAlarm"/>
+					
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.1.2.0.3006">
+					<NotificationType AttributeName="NotificationType" Value="ALARM"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="stoStorageMediaErrorAlarm"/>
+					
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.1.6.0.3007">
+					<NotificationType AttributeName="NotificationType" Value="ALARM"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="swmBackupAlarm"/>
+					
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.1.6.0.30005">
+					<NotificationType AttributeName="NotificationType" Value="ERROR"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="swmBackupStatusEvent"/>
+					<ProbableCause AttributeName="ProbableCause" Value="0"/>
+					<EventType AttributeName="EventType" Value="3"/>
+					<PerceivedSeverity AttributeName="PerceivedSeverity" Value="WARNING"/>
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.1.6.0.20014">
+					<NotificationType AttributeName="NotificationType" Value="ERROR"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="swmDmEvent"/>
+					<ProbableCause AttributeName="ProbableCause" Value="0"/>
+					<EventType AttributeName="EventType" Value="3"/>
+					<PerceivedSeverity AttributeName="PerceivedSeverity" Value="WARNING"/>
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.1.6.0.20009">
+					<NotificationType AttributeName="NotificationType" Value="ERROR"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="swmDmUnlockingReady"/>
+					<ProbableCause AttributeName="ProbableCause" Value="0"/>
+					<EventType AttributeName="EventType" Value="3"/>
+					<PerceivedSeverity AttributeName="PerceivedSeverity" Value="WARNING"/>
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.1.6.0.30006">
+					<NotificationType AttributeName="NotificationType" Value="ERROR"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="swmEcEvent"/>
+					<ProbableCause AttributeName="ProbableCause" Value="0"/>
+					<EventType AttributeName="EventType" Value="2"/>
+					<PerceivedSeverity AttributeName="PerceivedSeverity" Value="WARNING"/>
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.1.6.0.20010">
+					<NotificationType AttributeName="NotificationType" Value="ERROR"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="swmPatchEvent"/>
+					<ProbableCause AttributeName="ProbableCause" Value="0"/>
+					<EventType AttributeName="EventType" Value="2"/>
+					<PerceivedSeverity AttributeName="PerceivedSeverity" Value="WARNING"/>
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.1.6.0.20012">
+					<NotificationType AttributeName="NotificationType" Value="ERROR"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="swmSoftwareEvent"/>
+					<ProbableCause AttributeName="ProbableCause" Value="0"/>
+					<EventType AttributeName="EventType" Value="2"/>
+					<PerceivedSeverity AttributeName="PerceivedSeverity" Value="WARNING"/>
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.1.6.0.30004">
+						<NotificationType AttributeName="NotificationType" Value="ERROR"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="swmUgStatusChangedEvent"/>
+					<ProbableCause AttributeName="ProbableCause" Value="0"/>
+					<EventType AttributeName="EventType" Value="2"/>
+					<PerceivedSeverity AttributeName="PerceivedSeverity" Value="WARNING"/>
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.1.6.0.30007">
+					<NotificationType AttributeName="NotificationType" Value="ALARM"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="swmBackupAlarm"/>
+				
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.1.6.0.2010">
+					<NotificationType AttributeName="NotificationType" Value="ALARM"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="swmSoftwareAlarm"/>
+					
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.0.2012">
+					<NotificationType AttributeName="NotificationType" Value="ALARM"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="mcncManagementConnectionAlarm"/>
+					
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.0.2013">
+					<NotificationType AttributeName="NotificationType" Value="ALARM"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="mcncManagementConnInfoAlarm"/>
+					
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.0.2005">
+					<NotificationType AttributeName="NotificationType" Value="ALARM"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="mcncPvcConnectionAlarm"/>
+					
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.0.2006">
+					<NotificationType AttributeName="NotificationType" Value="ALARM"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="mcncSpvcConnectionAlarm"/>
+				
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.0.2007">
+					<NotificationType AttributeName="NotificationType" Value="ALARM"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="mcncEthernetInformationAlarm"/>
+					
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.0.2008">
+					<NotificationType AttributeName="NotificationType" Value="ALARM"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="mcncEthernetConnectionAlarm"/>
+					
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.8.1.1.2.1.7.5012">
+					<NotificationType AttributeName="NotificationType" Value="ALARM"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="iprhDropFilteringAlarm"/>
+					
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.8.1.1.2.1.7.5015">
+					<NotificationType AttributeName="NotificationType" Value="ALARM"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="iprhBwAlarm"/>
+					
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.8.1.1.8.1.0.50101">
+					<NotificationType AttributeName="NotificationType" Value="ERROR"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="bgpEstablishedEvent"/>
+					<ProbableCause AttributeName="ProbableCause" Value="0"/>
+					<EventType AttributeName="EventType" Value="3"/>
+					<PerceivedSeverity AttributeName="PerceivedSeverity" Value="WARNING"/>
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.8.1.1.8.1.0.50102">
+					<NotificationType AttributeName="NotificationType" Value="ERROR"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="bgpBackwardTransitionEvent"/>
+					<ProbableCause AttributeName="ProbableCause" Value="0"/>
+					<EventType AttributeName="EventType" Value="3"/>
+					<PerceivedSeverity AttributeName="PerceivedSeverity" Value="WARNING"/>
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.8.1.1.9.1.0.50105">
+					<NotificationType AttributeName="NotificationType" Value="ERROR"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="ospfNeighbourStateEvent"/>
+					<ProbableCause AttributeName="ProbableCause" Value="0"/>
+					<EventType AttributeName="EventType" Value="3"/>
+					<PerceivedSeverity AttributeName="PerceivedSeverity" Value="WARNING"/>
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.8.1.1.6.1.0.5010">
+					<NotificationType AttributeName="NotificationType" Value="ALARM"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="mbqmVoiceQualityAlarm"/>
+					
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.8.1.1.10.1.1.0.50108">
+					<NotificationType AttributeName="NotificationType" Value="ERROR"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="isisAdjacencyStateEvent"/>
+					<ProbableCause AttributeName="ProbableCause" Value="0"/>
+					<EventType AttributeName="EventType" Value="3"/>
+					<PerceivedSeverity AttributeName="PerceivedSeverity" Value="WARNING"/>
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.8.1.1.15.1.0.50107">
+					<NotificationType AttributeName="NotificationType" Value="ERROR"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="iprMoveEvent"/>
+					<ProbableCause AttributeName="ProbableCause" Value="0"/>
+					<EventType AttributeName="EventType" Value="3"/>
+					<PerceivedSeverity AttributeName="PerceivedSeverity" Value="WARNING"/>
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.8.1.1.17.1.2.0.5013">
+					<NotificationType AttributeName="NotificationType" Value="ALARM"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="ipsecAuthFailedAlarm"/>
+					
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.8.1.1.17.1.2.0.5014">
+					<NotificationType AttributeName="NotificationType" Value="ALARM"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="tcpipIpsecAuthAlarm"/>
+				
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.8.1.1.17.1.2.0.50109">
+					<NotificationType AttributeName="NotificationType" Value="ERROR"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="ipsecAcquireEvent"/>
+					<ProbableCause AttributeName="ProbableCause" Value="0"/>
+					<EventType AttributeName="EventType" Value="1"/>
+					<PerceivedSeverity AttributeName="PerceivedSeverity" Value="WARNING"/>
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.8.1.1.17.1.2.0.50110">
+					<NotificationType AttributeName="NotificationType" Value="ERROR"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="ipsecLifeTimeSoftExpiredEvent"/>
+					<ProbableCause AttributeName="ProbableCause" Value="0"/>
+					<EventType AttributeName="EventType" Value="1"/>
+					<PerceivedSeverity AttributeName="PerceivedSeverity" Value="WARNING"/>
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.137.2.2.0.1">
+					<NotificationType AttributeName="NotificationType" Value="ERROR"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="sadAcquireEvent"/>
+					<ProbableCause AttributeName="ProbableCause" Value="0"/>
+					<EventType AttributeName="EventType" Value="1"/>
+					<PerceivedSeverity AttributeName="PerceivedSeverity" Value="WARNING"/>
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.137.2.2.0.2">
+					<NotificationType AttributeName="NotificationType" Value="ERROR"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="sadLifeTimeSoftExpiredEvent"/>
+					<ProbableCause AttributeName="ProbableCause" Value="0"/>
+					<EventType AttributeName="EventType" Value="1"/>
+					<PerceivedSeverity AttributeName="PerceivedSeverity" Value="WARNING"/>
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.137.2.2.0.3">
+					<NotificationType AttributeName="NotificationType" Value="ERROR"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="sadAuthFailedAlarm"/>
+					<ProbableCause AttributeName="ProbableCause" Value="51"/>
+					<EventType AttributeName="EventType" Value="4"/>
+					<PerceivedSeverity AttributeName="PerceivedSeverity" Value="MAJOR"/>
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.2.16.0.4076">
+					<NotificationType AttributeName="NotificationType" Value="ALARM"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="vpaUpperQosAlarm"/>
+					
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.2.16.0.4077">
+					<NotificationType AttributeName="NotificationType" Value="ALARM"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="vpaLowerQosAlarm"/>
+				
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.2.18.0.4080">
+					<NotificationType AttributeName="NotificationType" Value="ALARM"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="pppAlarm"/>
+					
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.2.19.0.4079">
+					<NotificationType AttributeName="NotificationType" Value="ALARM"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="arpAlarm"/>
+					
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.2.20.0.4078">
+					<NotificationType AttributeName="NotificationType" Value="ALARM"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="etherLinkAlarm"/>
+					
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.2.21.0.4082">
+					<NotificationType AttributeName="NotificationType" Value="ALARM"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="ivaImageIncompatibilityAlarm"/>
+					
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.2.21.0.4084">
+					<NotificationType AttributeName="NotificationType" Value="ALARM"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="ivaDSPFailureAlarm"/>
+				
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.2.21.0.40024">
+					<NotificationType AttributeName="NotificationType" Value="ERROR"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="ivaVDSPOverbookEvent"/>
+					<ProbableCause AttributeName="ProbableCause" Value="51"/>
+					<EventType AttributeName="EventType" Value="4"/>
+					<PerceivedSeverity AttributeName="PerceivedSeverity" Value="MAJOR"/>
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.2.12.0.40019">
+					<NotificationType AttributeName="NotificationType" Value="ERROR"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="eqmPrSwLocalRequestEvent"/>
+					<ProbableCause AttributeName="ProbableCause" Value="0"/>
+					<EventType AttributeName="EventType" Value="5"/>
+					<PerceivedSeverity AttributeName="PerceivedSeverity" Value="WARNING"/>
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.2.12.0.4056">
+					<NotificationType AttributeName="NotificationType" Value="ALARM"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="eqmEqPrActiveProtection-UnitAlarm"/>
+				
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.2.12.0.4057">
+					<NotificationType AttributeName="NotificationType" Value="ALARM"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="eqmEqPrCableAlarm"/>
+			
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.2.15.1.0.4068">
+					<NotificationType AttributeName="NotificationType" Value="ALARM"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="pdhLinkAlarm"/>
+					
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.353.5.7.1.2.0.1">
+					<NotificationType AttributeName="NotificationType" Value="ALARM"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="imaFailureAlarm"/>
+					
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.2.14.1.0.4067">
+					<NotificationType AttributeName="NotificationType" Value="ALARM"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="imaLinkAlarm"/>
+					
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.2.14.1.0.4066">
+					<NotificationType AttributeName="NotificationType" Value="ALARM"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="imaGroupAlarm"/>
+				
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.7.3.2.0.5001">
+					<NotificationType AttributeName="NotificationType" Value="ALARM"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="mplsLdpSessionAlarm"/>
+					
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.2.4.0.40025">
+					<NotificationType AttributeName="NotificationType" Value="ERROR"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="eqmAcpReminderEvent"/>
+					<ProbableCause AttributeName="ProbableCause" Value="255"/>
+					<EventType AttributeName="EventType" Value="2"/>
+					<PerceivedSeverity AttributeName="PerceivedSeverity" Value="MAJOR"/>
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.2.4.0.40020">
+					<NotificationType AttributeName="NotificationType" Value="ERROR"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="eqmBoardInsertedEvent"/>
+					<ProbableCause AttributeName="ProbableCause" Value="0"/>
+					<EventType AttributeName="EventType" Value="3"/>
+					<PerceivedSeverity AttributeName="PerceivedSeverity" Value="MAJOR"/>
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.2.4.0.40021">
+					<NotificationType AttributeName="NotificationType" Value="ERROR"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="eqmBoardRemovedEvent"/>
+					<ProbableCause AttributeName="ProbableCause" Value="0"/>
+					<EventType AttributeName="EventType" Value="3"/>
+					<PerceivedSeverity AttributeName="PerceivedSeverity" Value="MAJOR"/>
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.2.4.0.40024">
+					<NotificationType AttributeName="NotificationType" Value="ERROR"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="eqmCpInvalidCombinationEvent"/>
+					<ProbableCause AttributeName="ProbableCause" Value="0"/>
+					<EventType AttributeName="EventType" Value="3"/>
+					<PerceivedSeverity AttributeName="PerceivedSeverity" Value="MAJOR"/>
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.2.4.0.40016">
+					<NotificationType AttributeName="NotificationType" Value="ERROR"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="eqmEmAutoCreatedEvent"/>
+					<ProbableCause AttributeName="ProbableCause" Value="0"/>
+					<EventType AttributeName="EventType" Value="3"/>
+					<PerceivedSeverity AttributeName="PerceivedSeverity" Value="MAJOR"/>
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.2.4.0.40017">
+					<NotificationType AttributeName="NotificationType" Value="ERROR"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="eqmEmAutoCreationFailedEvent"/>
+					<ProbableCause AttributeName="ProbableCause" Value="0"/>
+					<EventType AttributeName="EventType" Value="3"/>
+					<PerceivedSeverity AttributeName="PerceivedSeverity" Value="MAJOR"/>
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.2.4.0.40018">
+					<NotificationType AttributeName="NotificationType" Value="ERROR"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="eqmHwInfoReadErrorEvent"/>
+					<ProbableCause AttributeName="ProbableCause" Value="0"/>
+					<EventType AttributeName="EventType" Value="5"/>
+					<PerceivedSeverity AttributeName="PerceivedSeverity" Value="MAJOR"/>
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.2.4.0.40015">
+					<NotificationType AttributeName="NotificationType" Value="ERROR"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="eqmInvalidBoardCombinationEvent"/>
+					<ProbableCause AttributeName="ProbableCause" Value="0"/>
+					<EventType AttributeName="EventType" Value="5"/>
+					<PerceivedSeverity AttributeName="PerceivedSeverity" Value="MAJOR"/>
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.2.4.0.40008">
+					<NotificationType AttributeName="NotificationType" Value="ERROR"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="eqmPiuTestResultEvent"/>
+					<ProbableCause AttributeName="ProbableCause" Value="0"/>
+					<EventType AttributeName="EventType" Value="6"/>
+					<PerceivedSeverity AttributeName="PerceivedSeverity" Value="WARNING"/>
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.2.4.0.4009">
+					<NotificationType AttributeName="NotificationType" Value="ALARM"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="eqmSwitchCoreAlarm"/>
+					
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.2.4.0.4065">
+					<NotificationType AttributeName="NotificationType" Value="ALARM"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="eqmSwitchDistributionAlarm"/>
+					
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.2.4.0.4071">
+					<NotificationType AttributeName="NotificationType" Value="ALARM"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="eqmSwitchPlaneAlarm"/>
+					
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.2.4.0.4010">
+					<NotificationType AttributeName="NotificationType" Value="ALARM"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="eqmHighTempAlarm"/>
+					
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.2.4.0.4021">
+					<NotificationType AttributeName="NotificationType" Value="ALARM"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="eqmAtmTermAlarm"/>
+					
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.2.4.0.4022">
+					<NotificationType AttributeName="NotificationType" Value="ALARM"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="eqmEtAlarm"/>
+					
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.2.4.0.4023">
+					<NotificationType AttributeName="NotificationType" Value="ALARM"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="eqmCpAlarm"/>
+					
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.2.4.0.4024">
+					<NotificationType AttributeName="NotificationType" Value="ALARM"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="eqmPwrFuseAlarm"/>
+					
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.2.4.0.4055">
+					<NotificationType AttributeName="NotificationType" Value="ALARM"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="eqmBoardPowerAlarm"/>
+					
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.2.4.0.4025">
+					<NotificationType AttributeName="NotificationType" Value="ALARM"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="eqmNetsyncAlarm"/>
+				
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.2.4.0.4026">
+					<NotificationType AttributeName="NotificationType" Value="ALARM"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="eqmAtmSyncAlarm"/>
+				
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.2.4.0.4027">
+					<NotificationType AttributeName="NotificationType" Value="ALARM"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="eqmNetsyncVelocityAlarm"/>
+						
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.2.4.0.4028">
+					<NotificationType AttributeName="NotificationType" Value="ALARM"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="eqmNetsyncPhaseDiffAlarm"/>
+					
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.2.4.0.4038">
+					<NotificationType AttributeName="NotificationType" Value="ALARM"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="eqmPowerFilterAlarm"/>
+				
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.2.4.0.4044">
+					<NotificationType AttributeName="NotificationType" Value="ALARM"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="eqmL3fAlarm"/>
+				
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.2.4.0.4040">
+					<NotificationType AttributeName="NotificationType" Value="ALARM"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="eqmAlarmCutOffAlarm"/>
+				
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.2.4.0.4042">
+					<NotificationType AttributeName="NotificationType" Value="ALARM"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="eqmUpsTempAlarm"/>
+					
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.2.4.0.4041">
+					<NotificationType AttributeName="NotificationType" Value="ALARM"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="eqmAtBoardAlarm"/>
+					
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.2.4.0.4029">
+					<NotificationType AttributeName="NotificationType" Value="ALARM"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="eqmHwNotFoundAlarm"/>
+					
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.2.4.0.4011">
+					<NotificationType AttributeName="NotificationType" Value="ALARM"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="eqmHwIdentityFaultAlarm"/>
+					
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.2.4.0.4070">
+					<NotificationType AttributeName="NotificationType" Value="ALARM"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="eqmHwIncompatibilityAlarm"/>
+				
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.2.4.0.4069">
+					<NotificationType AttributeName="NotificationType" Value="ALARM"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="eqmHwIncompatibilityInformationAlarm"/>
+					
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.2.4.0.4012">
+					<NotificationType AttributeName="NotificationType" Value="ALARM"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="eqmOperatorBlockedEquipmentAlarm"/>
+					
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.2.4.0.4063">
+					<NotificationType AttributeName="NotificationType" Value="ALARM"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="eqmOperatorBlockedBoardAlarm"/>
+				
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.2.4.0.4064">
+					<NotificationType AttributeName="NotificationType" Value="ALARM"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="eqmOperatorBlockedEmAlarm"/>
+					
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.2.4.0.4050">
+					<NotificationType AttributeName="NotificationType" Value="ALARM"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="eqmBufferObsAlarm"/>
+					
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.2.4.0.4051">
+					<NotificationType AttributeName="NotificationType" Value="ALARM"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="eqmBufferQosAlar"/>
+				
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.2.4.0.4072">
+					<NotificationType AttributeName="NotificationType" Value="ALARM"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="eqmVpbAlarm"/>
+					
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.2.4.0.4083">
+					<NotificationType AttributeName="NotificationType" Value="ALARM"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="eqmAtb4PtbCongAlarm"/>
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.2.4.0.4074">
+					<NotificationType AttributeName="NotificationType" Value="ALARM"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="eqmCrossConnectionCableAlarm"/>
+			</AlarmTrapOidAT>
+			
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.2.4.0.4073">
+					<NotificationType AttributeName="NotificationType" Value="ALARM"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="eqmDpAlarm"/>
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.2.4.0.4075">
+					<NotificationType AttributeName="NotificationType" Value="ALARM"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="eqmEtReassignmentFailedAlarm"/>
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.2.5.0.40009">
+					<NotificationType AttributeName="NotificationType" Value="ERROR"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="eqmLinkTestResultEvent"/>
+					<ProbableCause AttributeName="ProbableCause" Value="0"/>
+					<EventType AttributeName="EventType" Value="6"/>
+					<PerceivedSeverity AttributeName="PerceivedSeverity" Value="WARNING"/>
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.2.4.0.4037">
+					<NotificationType AttributeName="NotificationType" Value="ALARM"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="eqmOperatorBlockedLinkAlarm"/>
+					
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.2.5.0.4037">
+					<NotificationType AttributeName="NotificationType" Value="ALARM"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="eqmOperatorBlockedLinkAlarm"/>
+					
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.2.1.0.4060">
+					<NotificationType AttributeName="NotificationType" Value="ALARM"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="sonetTributaryAlarm"/>
+					
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.2.1.0.4061">
+					<NotificationType AttributeName="NotificationType" Value="ALARM"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="sonetUpperQosAlarm"/>
+					
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.2.1.0.4062">
+					<NotificationType AttributeName="NotificationType" Value="ALARM"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="sonetLowerQosAlarm"/>
+					
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.2.1.0.4059">
+					<NotificationType AttributeName="NotificationType" Value="ALARM"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="sonetLinkAlarm"/>
+					
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.2.1.0.4007">
+					<NotificationType AttributeName="NotificationType" Value="ALARM"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="sdhUpperQosAlarm"/>
+					
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.2.1.0.4052">
+					<NotificationType AttributeName="NotificationType" Value="ALARM"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="sdhTributaryAlarm"/>
+					
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.2.1.0.4006">
+					<NotificationType AttributeName="NotificationType" Value="ALARM"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="sdhObservationAlarm"/>
+				
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.2.1.0.4008">
+					<NotificationType AttributeName="NotificationType" Value="ALARM"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="sdhLowerQosAlarm"/>
+					
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.2.1.0.4005">
+					<NotificationType AttributeName="NotificationType" Value="ALARM"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="sdhLinkAlarm"/>
+					
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.2.7.0.40007">
+					<NotificationType AttributeName="NotificationType" Value="ERROR"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="nsyDedSynchInletTestResultEvent"/>
+					<ProbableCause AttributeName="ProbableCause" Value="0"/>
+					<EventType AttributeName="EventType" Value="6"/>
+					<PerceivedSeverity AttributeName="PerceivedSeverity" Value="WARNING"/>
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.2.7.0.4000">
+					<NotificationType AttributeName="NotificationType" Value="ALARM"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="nsyDedSynchInletAlarm"/>
+					
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.2.7.0.40006">
+					<NotificationType AttributeName="NotificationType" Value="ERROR"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="nsyControllingRefChangedEvent"/>
+					<ProbableCause AttributeName="ProbableCause" Value="0"/>
+					<EventType AttributeName="EventType" Value="6"/>
+					<PerceivedSeverity AttributeName="PerceivedSeverity" Value="WARNING"/>
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.60.2.5.0.60217">
+					<NotificationType AttributeName="NotificationType" Value="ERROR"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="gcpControlLinkStatusEvent"/>
+					<ProbableCause AttributeName="ProbableCause" Value="0"/>
+					<EventType AttributeName="EventType" Value="6"/>
+					<PerceivedSeverity AttributeName="PerceivedSeverity" Value="WARNING"/>
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.3.2.0.1006">
+					<NotificationType AttributeName="NotificationType" Value="ALARM"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="pnnirProtocolRestartFailureAlarm"/>
+					
+			</AlarmTrapOidAT>
+			
+			
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.3.2.0.1010">
+					<NotificationType AttributeName="NotificationType" Value="ALARM"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="pnniProtocolRestartFailureAlarm"/>
+					
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.3.2.1010">
+					<NotificationType AttributeName="NotificationType" Value="ALARM"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="pnniProtocolRestartFailureAlarm"/>
+				
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.3.3.0.1003">
+					<NotificationType AttributeName="NotificationType" Value="ALARM"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="uniProtocolRestartFailureAlarm"/>
+					
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.3.10.0.1012">
+					<NotificationType AttributeName="NotificationType" Value="ALARM"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="plcCpOverloadAlarm"/>
+					
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.3.11.0.1004">
+					<NotificationType AttributeName="NotificationType" Value="ALARM"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="spvcScheduledConnectionAlarm"/>
+					
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.3.11.0.1005">
+					<NotificationType AttributeName="NotificationType" Value="ALARM"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="spvcFailingAlarm"/>
+					
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.3.11.0.1011">
+					<NotificationType AttributeName="NotificationType" Value="ALARM"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="spvcStillTryingAlarm"/>
+					
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.3.14.0.1007">
+					<NotificationType AttributeName="NotificationType" Value="ALARM"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="iispProtocolRestartFailureAlarm"/>
+					
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.3.15.0.1008">
+					<NotificationType AttributeName="NotificationType" Value="ALARM"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="ainiProtocolRestartFailureAlarm"/>
+				
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.60.2.6.60216">
+					<NotificationType AttributeName="NotificationType" Value="ERROR"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="mlgCountersResetEvent"/>
+					<ProbableCause AttributeName="ProbableCause" Value="0"/>
+					<EventType AttributeName="EventType" Value="6"/>
+					<PerceivedSeverity AttributeName="PerceivedSeverity" Value="WARNING"/>
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.60.2.6.6015">
+					<NotificationType AttributeName="NotificationType" Value="ALARM"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="mlgPipeRouteFailureAlarm"/>
+					
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.60.2.7.6016">
+					<NotificationType AttributeName="NotificationType" Value="ALARM"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="migRemoteMgReachabilityAlarm"/>
+					
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.60.2.7.60218">
+					<NotificationType AttributeName="NotificationType" Value="ERROR"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="migLoopbackEvent"/>
+					<ProbableCause AttributeName="ProbableCause" Value="0"/>
+					<EventType AttributeName="EventType" Value="6"/>
+					<PerceivedSeverity AttributeName="PerceivedSeverity" Value="WARNING"/>
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.60.2.7.6014">
+					<NotificationType AttributeName="NotificationType" Value="ALARM"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="migNoActiveLinkAlarm"/>
+				
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.8.1.1.12.1.0.2.50103">
+					<NotificationType AttributeName="NotificationType" Value="ERROR"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="tcpipPingEvent"/>
+					<ProbableCause AttributeName="ProbableCause" Value="0"/>
+					<EventType AttributeName="EventType" Value="1"/>
+					<PerceivedSeverity AttributeName="PerceivedSeverity" Value="WARNING"/>
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.8.1.1.12.1.0.2.50111">
+					<NotificationType AttributeName="NotificationType" Value="ERROR"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="tcpipIcmpErrorEvent"/>
+					<ProbableCause AttributeName="ProbableCause" Value="0"/>
+					<EventType AttributeName="EventType" Value="1"/>
+					<PerceivedSeverity AttributeName="PerceivedSeverity" Value="WARNING"/>
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.8.1.1.13.1.0.2.0.50104">
+					<NotificationType AttributeName="NotificationType" Value="ERROR"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="tcpipTraceRouteEvent"/>
+					<ProbableCause AttributeName="ProbableCause" Value="0"/>
+					<EventType AttributeName="EventType" Value="1"/>
+					<PerceivedSeverity AttributeName="PerceivedSeverity" Value="WARNING"/>
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.8.1.1.18.1.3.5016">
+					<NotificationType AttributeName="NotificationType" Value="ALARM"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="bfdSessionAlarm"/>
+				
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.2.1.10.18.15.0.1">
+					<NotificationType AttributeName="NotificationType" Value="ERROR"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="dsx1LineStatusChange"/>
+					<ProbableCause AttributeName="ProbableCause" Value="0"/>
+					<EventType AttributeName="EventType" Value="6"/>
+					<PerceivedSeverity AttributeName="PerceivedSeverity" Value="WARNING"/>
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.2.1.26.0.2">
+					<NotificationType AttributeName="NotificationType" Value="ERROR"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="ifMauJabberTrap"/>
+					<ProbableCause AttributeName="ProbableCause" Value="0"/>
+					<EventType AttributeName="EventType" Value="6"/>
+					<PerceivedSeverity AttributeName="PerceivedSeverity" Value="WARNING"/>
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.11.0.40000">
+					<NotificationType AttributeName="NotificationType" Value="ERROR"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="axd301ColdStart"/>
+					<ProbableCause AttributeName="ProbableCause" Value="5"/>
+					<EventType AttributeName="EventType" Value="1"/>
+					<PerceivedSeverity AttributeName="PerceivedSeverity" Value="INDETERMINATE"/>
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.11.0.40001">
+				<NotificationType AttributeName="NotificationType" Value="ERROR"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="axd301StatusChangeEvent"/>
+					<ProbableCause AttributeName="ProbableCause" Value="5"/>
+					<EventType AttributeName="EventType" Value="0"/>
+					<PerceivedSeverity AttributeName="PerceivedSeverity" Value="INDETERMINATE"/>
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.11.0.2">
+					<NotificationType AttributeName="NotificationType" Value="ERROR"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="axd301LinkDown"/>
+					<ProbableCause AttributeName="ProbableCause" Value="5"/>
+					<EventType AttributeName="EventType" Value="1"/>
+					<PerceivedSeverity AttributeName="PerceivedSeverity" Value="INDETERMINATE"/>
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.11.0.3">
+					<NotificationType AttributeName="NotificationType" Value="ERROR"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="axd301LinkUp"/>
+					<ProbableCause AttributeName="ProbableCause" Value="5"/>
+					<EventType AttributeName="EventType" Value="1"/>
+					<PerceivedSeverity AttributeName="PerceivedSeverity" Value="WARNING"/>
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.11.0.40022">
+					<NotificationType AttributeName="NotificationType" Value="ERROR"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="axd301LinkModifiedEvent"/>
+					<ProbableCause AttributeName="ProbableCause" Value="101"/>
+					<EventType AttributeName="EventType" Value="1"/>
+					<PerceivedSeverity AttributeName="PerceivedSeverity" Value="MINOR"/>
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.11.0.40004">
+					<NotificationType AttributeName="NotificationType" Value="ERROR"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="axd301AuthenticationFailure"/>
+					<ProbableCause AttributeName="ProbableCause" Value="401"/>
+					<EventType AttributeName="EventType" Value="18"/>
+					<PerceivedSeverity AttributeName="PerceivedSeverity" Value="WARNING"/>
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.11.0.40012">
+					<NotificationType AttributeName="NotificationType" Value="ERROR"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="dnaConnectionCreate"/>
+					<ProbableCause AttributeName="ProbableCause" Value="101"/>
+					<EventType AttributeName="EventType" Value="1"/>
+					<PerceivedSeverity AttributeName="PerceivedSeverity" Value="WARNING"/>
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.11.0.40013">
+					<NotificationType AttributeName="NotificationType" Value="ERROR"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="dnaConnectionDelete"/>
+					<ProbableCause AttributeName="ProbableCause" Value="101"/>
+					<EventType AttributeName="EventType" Value="1"/>
+					<PerceivedSeverity AttributeName="PerceivedSeverity" Value="WARNING"/>
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.11.0.40010">
+					<NotificationType AttributeName="NotificationType" Value="ERROR"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="dnaInterfaceiscreated"/>
+					<ProbableCause AttributeName="ProbableCause" Value="101"/>
+					<EventType AttributeName="EventType" Value="1"/>
+					<PerceivedSeverity AttributeName="PerceivedSeverity" Value="WARNING"/>
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.11.0.40011">
+					<NotificationType AttributeName="NotificationType" Value="ERROR"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="dnaInterfaceisDeleted"/>
+					<ProbableCause AttributeName="ProbableCause" Value="101"/>
+					<EventType AttributeName="EventType" Value="1"/>
+					<PerceivedSeverity AttributeName="PerceivedSeverity" Value="WARNING"/>
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.11.0.40014">
+					<NotificationType AttributeName="NotificationType" Value="ERROR"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="dnaConnEntMethodChange"/>
+					<ProbableCause AttributeName="ProbableCause" Value="101"/>
+					<EventType AttributeName="EventType" Value="1"/>
+					<PerceivedSeverity AttributeName="PerceivedSeverity" Value="WARNING"/>
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.2.1.1.0.1">
+					<NotificationType AttributeName="NotificationType" Value="ERROR"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="atmfVpcChange"/>
+					<ProbableCause AttributeName="ProbableCause" Value="408"/>
+					<EventType AttributeName="EventType" Value="15"/>
+					<PerceivedSeverity AttributeName="PerceivedSeverity" Value="WARNING"/>
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.2.1.1.0.2">
+				<NotificationType AttributeName="NotificationType" Value="ERROR"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="atmfVccChange"/>
+					<ProbableCause AttributeName="ProbableCause" Value="408"/>
+					<EventType AttributeName="EventType" Value="15"/>
+					<PerceivedSeverity AttributeName="PerceivedSeverity" Value="WARNING"/>
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.2.3.0.4081">
+					<NotificationType AttributeName="NotificationType" Value="ALARM"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="nsyRtpSynchIFsDisabledAlarm"/>
+				
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.3.6.0.10004">
+					<NotificationType AttributeName="NotificationType" Value="ERROR"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="saalUniReleaseIndEvent"/>
+					<ProbableCause AttributeName="ProbableCause" Value="101"/>
+					<EventType AttributeName="EventType" Value="1"/>
+					<PerceivedSeverity AttributeName="PerceivedSeverity" Value="WARNING"/>
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.3.6.0.10005">
+					<NotificationType AttributeName="NotificationType" Value="ERROR"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="saalUniMaxNoOfMaaErrorEvent"/>
+					<ProbableCause AttributeName="ProbableCause" Value="51"/>
+					<EventType AttributeName="EventType" Value="4"/>
+					<PerceivedSeverity AttributeName="PerceivedSeverity" Value="MAJOR"/>
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.3.6.0.10006">
+					<NotificationType AttributeName="NotificationType" Value="ERROR"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="saalUniMaxNoOfMaalErrorEvent"/>
+					<ProbableCause AttributeName="ProbableCause" Value="51"/>
+					<EventType AttributeName="EventType" Value="4"/>
+					<PerceivedSeverity AttributeName="PerceivedSeverity" Value="MAJOR"/>
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.3.6.0.10007">
+				<NotificationType AttributeName="NotificationType" Value="ERROR"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="saalUniMaxTimeOfNoCreditEvent"/>
+					<ProbableCause AttributeName="ProbableCause" Value="51"/>
+					<EventType AttributeName="EventType" Value="4"/>
+					<PerceivedSeverity AttributeName="PerceivedSeverity" Value="MAJOR"/>
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.3.6.0.1014">
+					<NotificationType AttributeName="NotificationType" Value="ALARM"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="saalUniLinkDisturbanceAlarm"/>
+				
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.3.6.0.1015">
+					<NotificationType AttributeName="NotificationType" Value="ALARM"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="saalUniMaxTimeOfNoCreditAlarm"/>
+					
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.3.11.0.10001">
+					<NotificationType AttributeName="NotificationType" Value="ERROR"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="spvcAtmSoftPvcCallFailuresTrapEvent"/>
+					<ProbableCause AttributeName="ProbableCause" Value="566"/>
+					<EventType AttributeName="EventType" Value="1"/>
+					<PerceivedSeverity AttributeName="PerceivedSeverity" Value="MAJOR"/>
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.3.11.0.10009">
+					<NotificationType AttributeName="NotificationType" Value="ERROR"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="spvcScheduledConnectionEvent"/>
+					<ProbableCause AttributeName="ProbableCause" Value="101"/>
+					<EventType AttributeName="EventType" Value="1"/>
+					<PerceivedSeverity AttributeName="PerceivedSeverity" Value="MINOR"/>
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.3.11.2.1.2.1.0.1">
+					<NotificationType AttributeName="NotificationType" Value="ERROR"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="frSwitchedPvcCallFailuresTrapEvent"/>
+					<ProbableCause AttributeName="ProbableCause" Value="566"/>
+					<EventType AttributeName="EventType" Value="1"/>
+					<PerceivedSeverity AttributeName="PerceivedSeverity" Value="MAJOR"/>
+			</AlarmTrapOidAT>
+			
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.7.3.2.0.50002">
+					<NotificationType AttributeName="NotificationType" Value="ERROR"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="mplsLdpSessionStatusEvent"/>
+					<ProbableCause AttributeName="ProbableCause" Value="101"/>
+					<EventType AttributeName="EventType" Value="1"/>
+					<PerceivedSeverity AttributeName="PerceivedSeverity" Value="MINOR"/>
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.7.13.2.0.1">
+					<NotificationType AttributeName="NotificationType" Value="ALARM"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="mplsXCUp"/>
+					<ProbableCause AttributeName="ProbableCause" Value="5"/>
+					<EventType AttributeName="EventType" Value="1"/>
+					<PerceivedSeverity AttributeName="PerceivedSeverity" Value="CLEARED"/>
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.7.13.2.0.2">
+					<NotificationType AttributeName="NotificationType" Value="ALARM"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="mplsXCDown"/>
+					<ProbableCause AttributeName="ProbableCause" Value="5"/>
+					<EventType AttributeName="EventType" Value="1"/>
+					<PerceivedSeverity AttributeName="PerceivedSeverity" Value="MAJOR"/>
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.3.2.10000">
+					<NotificationType AttributeName="NotificationType" Value="ERROR"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="pnnirUnSuppVersionEvent"/>
+					<ProbableCause AttributeName="ProbableCause" Value="57"/>
+					<EventType AttributeName="EventType" Value="2"/>
+					<PerceivedSeverity AttributeName="PerceivedSeverity" Value="MINOR"/>
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.3.2.10024">
+					<NotificationType AttributeName="NotificationType" Value="ALARM"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="pnniHelloLinkDownEvent"/>
+					<ProbableCause AttributeName="ProbableCause" Value="517"/>
+					<EventType AttributeName="EventType" Value="5"/>
+					<PerceivedSeverity AttributeName="PerceivedSeverity" Value="MAJOR"/>
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.3.2.10025">
+					<NotificationType AttributeName="NotificationType" Value="ALARM"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="pnniHelloLinkUpEvent"/>
+					<ProbableCause AttributeName="ProbableCause" Value="517"/>
+					<EventType AttributeName="EventType" Value="5"/>
+					<PerceivedSeverity AttributeName="PerceivedSeverity" Value="CLEARED"/>
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.3.2.10026">
+					<NotificationType AttributeName="NotificationType" Value="ERROR"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="pnniHelloInacTimerExpEvent"/>
+					<ProbableCause AttributeName="ProbableCause" Value="166"/>
+					<EventType AttributeName="EventType" Value="5"/>
+					<PerceivedSeverity AttributeName="PerceivedSeverity" Value="MINOR"/>
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.3.2.10027">
+					<NotificationType AttributeName="NotificationType" Value="ERROR"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="pnniHelloMismatchRecEvent"/>
+					<ProbableCause AttributeName="ProbableCause" Value="101"/>
+					<EventType AttributeName="EventType" Value="2"/>
+					<PerceivedSeverity AttributeName="PerceivedSeverity" Value="MINOR"/>
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.3.2.1013">
+					<NotificationType AttributeName="NotificationType" Value="ALARM"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="pnniHelloBadRemoteNodeAlarm"/>
+					
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.7.16.2.1.2.0.50001">
+					<NotificationType AttributeName="NotificationType" Value="ERROR"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="MplsInterfaceStatusEvent"/>
+					<ProbableCause AttributeName="ProbableCause" Value="101"/>
+					<EventType AttributeName="EventType" Value="1"/>
+					<PerceivedSeverity AttributeName="PerceivedSeverity" Value="MINOR"/>
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.7.16.6.1.0.50004">
+					<NotificationType AttributeName="NotificationType" Value="ERROR"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="mplsTunnelEstablishedEvent"/>
+					<ProbableCause AttributeName="ProbableCause" Value="566"/>
+					<EventType AttributeName="EventType" Value="1"/>
+					<PerceivedSeverity AttributeName="PerceivedSeverity" Value="MAJOR"/>
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.7.16.6.1.0.50005">
+					<NotificationType AttributeName="NotificationType" Value="ERROR"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="TunnelFailedEvent"/>
+					<ProbableCause AttributeName="ProbableCause" Value="566"/>
+					<EventType AttributeName="EventType" Value="1"/>
+					<PerceivedSeverity AttributeName="PerceivedSeverity" Value="MAJOR"/>
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.7.16.6.1.0.50006">
+					<NotificationType AttributeName="NotificationType" Value="ERROR"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="mplsTunnelTooFrequentFailuresEvent"/>
+					<ProbableCause AttributeName="ProbableCause" Value="51"/>
+					<EventType AttributeName="EventType" Value="4"/>
+					<PerceivedSeverity AttributeName="PerceivedSeverity" Value="MAJOR"/>
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.7.16.5.1.2.0.50003">
+					<NotificationType AttributeName="NotificationType" Value="ERROR"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="rsvpInterfaceStatusEvent"/>
+					<ProbableCause AttributeName="ProbableCause" Value="566"/>
+					<EventType AttributeName="EventType" Value="1"/>
+					<PerceivedSeverity AttributeName="PerceivedSeverity" Value="MINOR"/>
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.60.2.6.6017">
+					<NotificationType AttributeName="NotificationType" Value="ALARM"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="mlgHighFailedCallAttemptsAlarm"/>
+					
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.60.2.6.0.6016">
+					<NotificationType AttributeName="NotificationType" Value="ALARM"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="mlgNoActiveLinkAlarm"/>
+					
+			</AlarmTrapOidAT>
+			
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.60.2.7.6018">
+					<NotificationType AttributeName="NotificationType" Value="ALARM"/>
+					<SpecificProblem AttributeName="SpecificProblem" Value="mlgNoActiveLinkAlarm"/>
+					
+			</AlarmTrapOidAT>
+			<AlarmTrapOidAT OID=".1.3.6.1.4.1.193.14.1.1.3.0.3012">
+					<NotificationType AttributeName="NotificationType" Value="ALARM"/>
+					<PerceivedSeverity AttributeName="PerceivedSeverity" Value="CLEARED"/>
+			</AlarmTrapOidAT>
+		
+	
+		</SourceTypeAT>
+	</FMAlarmTable>
+	
+	
+</CommonAAUModel>

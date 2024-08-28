@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!ELEMENT CommonAAUModel (AlarmSupervision, Synchronization?, FMAlarmTable?)>
+<!ATTLIST CommonAAUModel Revision CDATA #FIXED "O12.2.5/2">
+
+<!ELEMENT AlarmSupervision (SourceTypeAS+)>
+<!ELEMENT SourceTypeAS (AlarmTrapOidAS+)>
+<!ATTLIST SourceTypeAS SourceType CDATA #REQUIRED>
+<!ELEMENT AlarmTrapOidAS (AttributeOid+)>
+<!ATTLIST AlarmTrapOidAS OID CDATA #REQUIRED>
+
+<!ELEMENT AttributeOid EMPTY>
+<!ATTLIST AttributeOid
+          OID CDATA #REQUIRED
+          AttributeName CDATA #REQUIRED>
+
+<!ELEMENT Synchronization (SourceTypeSync+)>
+<!ELEMENT SourceTypeSync (MibTypeSync+)>
+<!ATTLIST SourceTypeSync SourceType CDATA #REQUIRED>
+<!ELEMENT MibTypeSync (AttributeOid+)>
+<!ATTLIST MibTypeSync MibType CDATA #REQUIRED>
+<!ATTLIST AttributeOid OID CDATA #REQUIRED>
+
+<!ELEMENT FMAlarmTable (SourceTypeAT+)>
+<!ELEMENT SourceTypeAT (AlarmTrapOidAT+)>
+<!ATTLIST SourceTypeAT SourceType CDATA #REQUIRED>
+<!ELEMENT AlarmTrapOidAT ((SpecificProblem?,ProbableCause?,EventType?,PerceivedSeverity?,NotificationType?,AdditionalAttribute*))+>
+<!ATTLIST AlarmTrapOidAT OID CDATA #REQUIRED>
+
+<!ELEMENT SpecificProblem EMPTY>
+<!ATTLIST SpecificProblem
+          AttributeName CDATA #FIXED "SpecificProblem"
+          Value CDATA "Unknown">
+<!ELEMENT ProbableCause EMPTY>
+<!ATTLIST ProbableCause
+          AttributeName CDATA #FIXED "ProbableCause"
+          Value CDATA "Unknown"
+>
+<!ELEMENT EventType EMPTY>
+<!ATTLIST EventType
+          AttributeName CDATA #FIXED "EventType"
+          Value CDATA "Unknown"
+>
+<!ELEMENT PerceivedSeverity EMPTY>
+<!ATTLIST PerceivedSeverity
+          AttributeName CDATA #FIXED "PerceivedSeverity"
+          Value (INDETERMINATE|CRITICAL|MAJOR|MINOR|WARNING|CLEARED) "INDETERMINATE"
+>
+<!ELEMENT NotificationType EMPTY>
+<!ATTLIST NotificationType
+          AttributeName CDATA #FIXED "NotificationType"
+          Value (ALARM|ERROR) "ERROR"
+>
+<!ELEMENT AdditionalAttribute EMPTY>
+<!ATTLIST AdditionalAttribute
+          AttributeName CDATA #REQUIRED
+          Value CDATA #REQUIRED
+>
+
